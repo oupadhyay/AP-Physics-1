@@ -162,11 +162,13 @@ $m_B = \boxed{2.64m_A}$
 
 > In a ballistic pendulum experiment, projectile 1 results in a maximum height h of the pendulum equal to 2.6 cm. A second projectile of the same mass causes the pendulum to swing twice as high, $h_2$ = 5.2 cm. The second projectile was how many times faster than the first?
 
-
+From example 7-9, $\left(\dfrac{mv}{(m + M)}\right)^2 = 2gh$. Therefore, to increase the height by a factor of 2, the velocity must be increased by $\boxed{\sqrt2}$.
 
 #### 34
 
+> (a) Derive a formula for the fraction of kinetic energy lost, in terms of m and M for the ballistic pendulum collision of Example 7–9. (b) Evaluate for m = 18.0 g and M = 380 g.
 
+$$
 
 #### 35
 
