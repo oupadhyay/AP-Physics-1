@@ -83,7 +83,7 @@ Force = $\dfrac{\textsf{Impulse}}{\Delta t} = \dfrac{90\;\mathrm{N\cdot s}}{8.0\
 
 Impulse = $\Delta p = \Delta p_x = m(v_{x}' - v_x) = (0.060\;\mathrm{kg})\left(14\sqrt2\;\mathrm{m/s} - \left(-14\sqrt2\;\mathrm{m/s} \right)\right) = \boxed{1.68\sqrt2\;\mathrm{N\cdot s}}$
 
-==This is the last problem with units. The rest of the problems have ***implied*** units.==
+==This is the last problem with units. The rest of the problems have ***implied*** units.== 
 
 #### 19
 
@@ -168,7 +168,7 @@ From example 7-9, $\left(\dfrac{mv}{(m + M)}\right)^2 = 2gh$. Therefore, to incr
 
 > (a) Derive a formula for the fraction of kinetic energy lost, in terms of m and M for the ballistic pendulum collision of Example 7–9. (b) Evaluate for m = 18.0 g and M = 380 g.
 
-$$
+$:($
 
 #### 35
 
@@ -206,5 +206,12 @@ $$
 
 
 
+#### 55
+
+> A uniform circular plate of radius 2R has a circular hole of radius R cut out of it. The center of the smaller circle is a distance 0.80R from the center C of the larger circle, Fig. 7–41. What is the position of the center of mass of the plate? 
+
+$x_{CM} = \dfrac{m_{shaded}x_{shaded} + m_{white}v_{white}}{m_{total}}\Longrightarrow x_{shaded} = \dfrac{m_{total}x_{CM} - m_{white}v_{white}}{m_{total} - m_{white}}$
+
+Since $x_{CM} = 0$, $x_{shaded} = \dfrac{-m_{white}x_{white}}{m_{total} - m_{white}} = \dfrac{-\rho \pi R^2 (0.80R)}{\rho\pi(2R)^2 - \rho\pi R^2} = \boxed{-0.27R}$
 
 
