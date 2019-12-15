@@ -47,6 +47,26 @@ $0 = m_Av'_A + m_Bv'_B \Longrightarrow v'_b = -\dfrac{m_av'_A}{m_B}$
 
 $KE_A = 2KE_B \longrightarrow \dfrac12m_Av_A^{'2} = m_Bv_B^{'2} = m_B(-\dfrac{m_av'_A}{m_B})^2 \Longrightarrow \dfrac{m_A}{m_B} = \boxed{\dfrac12}$
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ------
 
 ## Homework #2
@@ -160,7 +180,7 @@ $m_B = \boxed{2.64m_A}$
 
 #### 33
 
-> In a ballistic pendulum experiment, projectile 1 results in a maximum height h of the pendulum equal to 2.6 cm. A second projectile of the same mass causes the pendulum to swing twice as high, $h_2$ = 5.2 cm. The second projectile was how many times faster than the first?
+> In a ballistic pendulum experiment, projectile 1 results in a maximum height $h_1$ of the pendulum equal to 2.6 cm. A second projectile of the same mass causes the pendulum to swing twice as high, $h_2$ = 5.2 cm. The second projectile was how many times faster than the first?
 
 From example 7-9, $\left(\dfrac{mv}{(m + M)}\right)^2 = 2gh$. Therefore, to increase the height by a factor of 2, the velocity must be increased by $\boxed{\sqrt2}$.
 
@@ -168,43 +188,104 @@ From example 7-9, $\left(\dfrac{mv}{(m + M)}\right)^2 = 2gh$. Therefore, to incr
 
 > (a) Derive a formula for the fraction of kinetic energy lost, in terms of m and M for the ballistic pendulum collision of Example 7–9. (b) Evaluate for m = 18.0 g and M = 380 g.
 
-$:($
+$\Delta KE = \dfrac12 (m+M)v^2 - \dfrac12 mv_0^2$
+$KE = \dfrac12 mv_0^2$
+
+$\dfrac{\Delta KE}{KE} = \dfrac{\dfrac12 (m+M)v^{'2} - \dfrac12 mv^2}{\dfrac12 mv^2} = \dfrac{(m+M)\left(\dfrac{m}{M+m} v\right)^2 - mv^2}{mv^2}$
+$= \dfrac{\left(\dfrac{m^2v^2}{m+M} - \dfrac{m^2v^2 + mMv^2}{m+M}\right)}{mv^2} = \boxed{\dfrac{-M}{m+M}}$
+
+$\dfrac{\Delta KE}{KE} = \dfrac{-380}{398} = \boxed{-0.95}$
 
 #### 35
 
+> A 0.028-kg rifle bullet traveling 190 m/s embeds itself in a 3.1-kg pendulum hanging on a 2.8-m-long string, which makes the pendulum swing upward in an arc. Determine the vertical and horizontal components of the pendulum’s maximum displacement.
 
+$0.028* 190 = (3.128)v' \Longrightarrow v' = 1.7$
+$\dfrac12 (m+M)v'^2 = (m+M)gh\Longrightarrow v' = \sqrt{2gh} \Longrightarrow h = \dfrac{v'^2}{2g} = \boxed{0.1475\;\mathrm{m}}$
+
+$\sqrt{2.8^2 - 0.1475^2} = \boxed{2.796\;\mathrm{m}}$
 
 #### 36
 
+> An internal explosion breaks an object, initially at rest, into two pieces, one of which has 1.5 times the mass of the other. If 5500 J is released in the explosion, how much kinetic energy does each piece acquire?
 
+A 3:2 ratio leads to a 2:3 ratio of kinetic energy. Therefore the $KE_A = \boxed{2200\;\mathrm{J}}$ and $KE_B = \boxed{3300\;\mathrm{J}}$
 
 #### 37
 
+> A 980-kg sports car collides into the rear end of a 2300-kg SUV stopped at a red light. The bumpers lock, the brakes are locked, and the two cars skid forward 2.6 m before stopping.
+> The police officer, estimating the coefficient of kinetic friction between tires and road to be 0.80, calculates the speed of the sports car at impact. What was that speed?
 
+$980 v = 3280 v' \Longrightarrow v = 3.3469 v'$
+$$
+\newenvironment{mcases}
+  {\left\lbrack\begin{aligned}}
+  {\end{aligned}\right\rbrace}
+  
+W_{fr} =\begin{mcases}
+KE_{final} - KE_{initial} = 0 - \dfrac12 (3280)v'^2 \\
+F_{fr} \Delta x = -\mu_k (3280)g\Delta x
+\end{mcases} v' = \sqrt{2\mu_kg\Delta x}
+$$ {wht is this}
+$v_A = 3.3469 \sqrt{2\cdot 0.80\cdot 9.8\cdot 2.6} = \boxed{21.27\;\mathrm{m/s}}$
 
 #### 38
 
+> You drop a 14-g ball from a height of 1.5 m and it only bounces back to a height of 0.85 m. What was the total impulse on the ball when it hit the floor? (Ignore air resistance.)
 
+$$
+KE_{\textsf{bottom}} = PE_{\textsf{top}}\rightarrow 
+\begin{mcases}
+v_{\textsf{down}} = -\sqrt{2gh_{\textsf{down}}} \\
+v_{\textsf{up}} = \sqrt{2gh_{\textsf{up}}}
+\end{mcases} \Delta p = m\Delta v = m\sqrt{2g}(\sqrt{h_{\textsf{up}}} + \sqrt{h_{\textsf{down}}})\\
+\textsf{Impulse} = \Delta p = \boxed{0.13\;\mathrm{km\cdot m/s}\textsf{ up}}
+$$
 
 #### 39
 
+> Car A hits car B (initially at rest and of equal mass) from behind while going 38 m/s. Immediately after the collision, car B moves forward at 15 m/s and car A is at rest. What fraction of the initial kinetic energy is lost in the collision?
 
+$$
+\textsf{Fraction Lost} = \dfrac{\Delta KE}{KE_{\textsf{initial}}} = \dfrac{v_A^2 - v'^2_B}{v_A^2} = \boxed{0.84}
+$$
 
 #### 40
 
+> A wooden block is cut into two pieces, one with three times the mass of the other. A depression is made in both faces of the cut, so that a firecracker can be placed in it with
+> the block reassembled. The reassembled block is set on a rough-surfaced table, and the fuse is lit. When the firecracker explodes inside, the two blocks separate and slide apart.
+> What is the ratio of distances each block travels?
 
+Since the force on each of the boxes are the same, then the acceleration is based solely on the individual masses. In fact, using the old displacement kinematic equation we can find that the speed is the inverse of the square of the mass. This means that the $\Delta x $  are in the ratio $\boxed{1/9}$.
 
 #### 44
 
+> Billiard ball A of mass  $m_A = 0.120\;\mathrm{kg}$ moving with speed $v_A = 2.80 \;\mathrm{m/s}$ strikes ball B, initially at rest, of mass $m_B = 0.140\;\mathrm{kg}$. As a result of the collision, ball A is deflected off at an angle of 30.0° with a speed $v'_A = 2.10 \;\mathrm{m/s}$. (a) Taking the x axis to be the original
+> direction of motion of ball A, write down the equations expressing the conservation of momentum for the components in the x and y directions separately. (b) Solve these equations for the speed, $v'_B$, and angle, $\theta_B'$, of ball B after the collision. Do not assume the collision is elastic.
 
+In the x direction: $0.120 \cdot 2.8 = 0.120 \cdot  1.82 + 0.140 \cdot v'_B\cos\theta_B' \Longrightarrow v_B'\cos\theta_B' = 0.84$
+In the y direction: $0 = 0.120 \cdot 1.4 + 0.140\cdot v_B'\sin\theta_B' \Longrightarrow v_B'\sin\theta_B' = -1.2$
+Now find theta: $\dfrac{\sin\theta_B'}{\cos \theta_B'} = -\dfrac{10}{7}\Longrightarrow \theta_B' = \boxed{-55^\circ}$
+Now find velocity: $v_B' = \boxed{1.466\;\mathrm{m/s}}$
 
 #### 45
 
+> A radioactive nucleus at rest decays into a second nucleus, an electron, and a neutrino. The electron and neutrino are emitted at right angles and have momenta of $9.6\times 10^{-23}\;\mathrm{kg\cdot m/s}$ and $6.2\times 10^{-23}\;\mathrm{kg\cdot m/s}$ respectively. Determine the magnitude and the direction of the momentum of the second (recoiling) nucleus.
 
+Since there was no momentum before the decay, the three momenta shown must add to 0 in both the x and y directions. 
+$$
+\newenvironment{rcases}
+  {\left.\begin{aligned}}
+  {\end{aligned}\right\rbrace}
+  
+\begin{rcases}
+(\rho_{\textsf{nucleus}})_x = \rho_{\textsf{neutrino}} \\ (\rho_{\textsf{nucleus}})_y = \rho_{\textsf{electron}}
+\end{rcases}
+\rho_{\textsf{nucleus}} = \sqrt{(\rho_{\textsf{nucleus}})_x^2 + (\rho_{\textsf{nucleus}})_y^2} = \sqrt{(\rho_{\textsf{neutrino}})^2 + (\rho_{\textsf{electron}})^2} \\
+\rho_{\textsf{nucleus}} = \boxed{1/14\cdot 10^{-22}\;\mathrm{kg\cdot m/s}} \\
 
-#### 46
-
-
+\theta = \tan^{-1} \left(\dfrac{(\rho_{\textsf{nucleus}})_y}{(\rho_{\textsf{nucleus}})_x}\right) = \tan^{-1} \left(\dfrac{(\rho_{\textsf{electron}})_y}{(\rho_{\textsf{neutrino}})_x}\right) = \boxed{57^\circ}
+$$
 
 #### 55
 
