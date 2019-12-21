@@ -1,6 +1,6 @@
 # Linear Momentum Homework
 
-## Homework #1
+## Homeworks
 
 ### Pg. 192 # 1-10 
 
@@ -68,8 +68,6 @@ $KE_A = 2KE_B \longrightarrow \dfrac12m_Av_A^{'2} = m_Bv_B^{'2} = m_B(-\dfrac{m_
 
 
 ------
-
-## Homework #2
 
 ### Pg. 192 #15-20, 25-30, 33-40, 44-46
 
@@ -284,7 +282,7 @@ $$
 \rho_{\textsf{nucleus}} = \sqrt{(\rho_{\textsf{nucleus}})_x^2 + (\rho_{\textsf{nucleus}})_y^2} = \sqrt{(\rho_{\textsf{neutrino}})^2 + (\rho_{\textsf{electron}})^2} \\
 \rho_{\textsf{nucleus}} = \boxed{1/14\cdot 10^{-22}\;\mathrm{kg\cdot m/s}} \\
 
-\theta = \tan^{-1} \left(\dfrac{(\rho_{\textsf{nucleus}})_y}{(\rho_{\textsf{nucleus}})_x}\right) = \tan^{-1} \left(\dfrac{(\rho_{\textsf{electron}})_y}{(\rho_{\textsf{neutrino}})_x}\right) = \boxed{57^\circ}
+\theta = \tan^{-1} \left(\dfrac{(\rho_{\textsf{nucleus}})_y}{(\rho_{\textsf{nucleus}})_x}\right) = \tan^{-1} \left(\dfrac{(\rho_{\textsf{electron}})_y}{(\rho_{\textsf{neutrino}})_x}\right) = \boxed{57^\circ}
 $$
 
 #### 55
@@ -295,4 +293,7 @@ $x_{CM} = \dfrac{m_{shaded}x_{shaded} + m_{white}v_{white}}{m_{total}}\Longright
 
 Since $x_{CM} = 0$, $x_{shaded} = \dfrac{-m_{white}x_{white}}{m_{total} - m_{white}} = \dfrac{-\rho \pi R^2 (0.80R)}{\rho\pi(2R)^2 - \rho\pi R^2} = \boxed{-0.27R}$
 
+### Pg. IDK # IDK
+
+#### IDK
 
