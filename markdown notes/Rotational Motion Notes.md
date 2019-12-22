@@ -19,7 +19,7 @@ Radians can be related to degrees as $\theta = \ell/r = 2\pi r/r = \boxed{2\pi =
 > (a) How many degrees is this? 
 > (b) How small an object can the bird just distinguish when flying at a height of 100 m?
 
-#### Part A<img src="/home/ou/Downloads/AP%20and%20SAT%20Subject/AP/physics/md/AP-Physics-1/markdown%20notes/Example%208-2.png" style="zoom:70%;float:left" />
+#### Part A<img src="/home/ou/Downloads/AP%20and%20SAT%20Subject/AP/physics/md/AP-Physics-1/images/Example%208-2.png" style="zoom:70%;float:left" />
 
 $(3\times 10^{-4})\left(\dfrac{360^\circ}{2\pi}\right) = \boxed{0.017^\circ}$
 
