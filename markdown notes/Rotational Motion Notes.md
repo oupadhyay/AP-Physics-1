@@ -64,6 +64,17 @@ $$
 
 Since $\dfrac{\Delta \theta}{\Delta t} = \omega$, ==$\boxed{v = r\omega}$.==
 
+$a_{\text{tan}} = \dfrac{\Delta v}{\Delta t} = r \dfrac{\Delta \omega}{\Delta t} = r\alpha$
+
+$\textsf{Total linear acceleration: }\vec{\mathbf{a}} = \vec{\mathbf{a}_{\text{tan}}} + \vec{\mathbf{a}_{R}}$
+
+| 8-1              | Linear and Rotational Quantities |            |                            |
+| ---------------- | -------------------------------- | ---------- | -------------------------- |
+| Linear           | Type                             | Rotational | Relation                   |
+| $x$              | displacement                     | $\theta$   | $x = r\theta$              |
+| $v$              | velocity                         | $\omega$   | $v = r\omega$              |
+| $a_{\text{tan}}$ | acceleration                     | $\alpha$   | $a_{\text{tan}} = r\alpha$ |
+
 
 
 ## Constant Angular Acceleration
