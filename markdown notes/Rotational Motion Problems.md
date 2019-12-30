@@ -57,7 +57,9 @@ $34\cdot C = 34\pi(31) = \boxed{33.1\;\mathrm{m}}$
 
 ### 25
 
-![](../images/Problem%208-25.png)
+> 
+>
+>  ![](../images/Problem%208-25.png)
 
 ### 27
 

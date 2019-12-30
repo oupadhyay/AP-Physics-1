@@ -268,9 +268,3 @@ $4.0\;\mathrm{m/s}$ and $55^\circ$
 
 $v_0 = \sqrt{\dfrac{-g(\Delta x)^2}{2y}} =\box{40\;\mathrm{m/s}}$
 
-
-
-#### 43
-
-
-
