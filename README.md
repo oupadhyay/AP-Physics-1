@@ -1,3 +1,4 @@
 # AP-Physics-1
 
-Here lies some notes. :smile:
+My notes :smiley:. 
+Please read the license (at least the basics). Thanks :thumbsup: 
