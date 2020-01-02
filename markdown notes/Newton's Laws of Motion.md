@@ -141,6 +141,3 @@ $t = \Delta v/a = \boxed{2.45\;\mathrm{s}}$
 $a = \dfrac{-m_A (\sin \theta_A + \mu_A \cos \theta_A) + m_B(\sin \theta_B 0 \mu_B\cos \theta_B)}{m_A + m_b}$
 
 $a = \boxed{-2.2\;\mathrm{m/s^2}}$
-
-# Class 6
-

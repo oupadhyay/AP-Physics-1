@@ -293,7 +293,3 @@ $x_{CM} = \dfrac{m_{shaded}x_{shaded} + m_{white}v_{white}}{m_{total}}\Longright
 
 Since $x_{CM} = 0$, $x_{shaded} = \dfrac{-m_{white}x_{white}}{m_{total} - m_{white}} = \dfrac{-\rho \pi R^2 (0.80R)}{\rho\pi(2R)^2 - \rho\pi R^2} = \boxed{-0.27R}$
 
-### Pg. IDK # IDK
-
-#### IDK
-

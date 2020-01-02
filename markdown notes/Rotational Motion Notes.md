@@ -19,7 +19,7 @@ Radians can be related to degrees as $\theta = \ell/r = 2\pi r/r = \boxed{2\pi =
 > (a) How many degrees is this? 
 > (b) How small an object can the bird just distinguish when flying at a height of 100 m?
 
-#### Part A<img src="/home/ou/Downloads/AP%20and%20SAT%20Subject/AP/physics/md/AP-Physics-1/images/Example%208-2.png" style="zoom:70%;float:left" />
+#### Part A<img src="../images/Example%208-2.png" style="zoom:70%;float:left" />
 
 $(3\times 10^{-4})\left(\dfrac{360^\circ}{2\pi}\right) = \boxed{0.017^\circ}$
 
@@ -50,8 +50,8 @@ $$
 
 $$
 \begin{align}
-\overline{\alpha} &= \dfrac{\Delta\theta}{\Delta t}\tag{average angular acceleration} \\
-\alpha &= \lim_{\Delta t \rightarrow 0} \dfrac{\Delta \theta}{\Delta t}\tag{instantaneous angular acceleration}
+\overline{\alpha} &= \dfrac{\Delta v}{\Delta t}\tag{average angular acceleration} \\
+\alpha &= \lim_{\Delta t \rightarrow 0} \dfrac{\Delta v}{\Delta t}\tag{instantaneous angular acceleration}
 \end{align}
 $$
 
@@ -62,12 +62,40 @@ $$
 v = \dfrac{\Delta \ell}{\Delta t} = r\dfrac{\Delta \theta}{\Delta t}\tag{instantaneous*}
 $$
 
-Since $\dfrac{\Delta \theta}{\Delta t} = \omega$, ==$\boxed{v = r\omega}$.==
+Since $\dfrac{\Delta \theta}{\Delta t} = \omega$, ==$\boxed{v = r\omega}$.== 
 
+Also, we can use this to see that the angular acceleration is related to the tangential linear acceleration of a point by: $a_{\text{tan}} = \dfrac{\Delta v}{\Delta t} = r \dfrac{\Delta \omega}{\Delta t}\Longrightarrow$ ==$\boxed{a_{\text{tan}} = r \alpha}.$==
 
+Total linear acceleration: ==$\vec{\mathbf{a}} = \vec{\mathbf{a}_{\text{tan}}} + \vec{\mathbf{a}_{R}}$==where $a_{\text{tan}} = r\alpha$ and $a_R = \dfrac{(r\omega)^2}{r} = \omega^2 r.$ 
+
+| 8-1              | Linear and Rotational Quantities |            |               |
+| ---------------- | -------------------------------- | ---------- | ------------- |
+| Linear           | Type                             | Rotational | Relation      |
+| $x$              | displacement                     | $\theta$   | $x = r\theta$ |
+| $v$              | velocity                         | $\omega$   | $v = r\omega$ |
+| $a_{\text{tan}}$ | acceleration                     |            |               |
+
+### Frequency and Period
+
+$$
+\begin{align*}
+f &= \dfrac{\omega}{2\pi} \Longrightarrow \omega = 2\pi f \\
+T &= \dfrac{1}{f}
+\end{align*}
+$$
 
 ## Constant Angular Acceleration
 
+The angular equations for **constant angular acceleration** will be analogous to the linear acceleration equations. They are:
+$$
+\textbf{Angular Equations for Constant Angular Acceleration} \\
+\begin{align}
+\omega &= \omega_0 + \alpha t \tag{constant $\alpha$, 1} \\
+\theta &= \omega_0t + \dfrac12\alpha t^2 \tag{constant $\alpha$, 2}\\
+\omega^2 &= \omega_0^2 + 2\alpha \theta \tag{constant $\alpha$, 3}\\
+\overline{\omega} &= \dfrac{\omega + \omega_0}{2} \tag{constant $\alpha$, 4}
+\end{align}
+$$
 
 
 ## Rolling Motion (Without Slipping)

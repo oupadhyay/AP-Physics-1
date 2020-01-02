@@ -67,7 +67,7 @@ $v'_p = v'_{He} - v_p = (1.45 - 3.60)\times 10^4 = \boxed{-2.15\times 10^4\;\mat
 
 > The ballistic pendulum is a device used to measure the speed of a projectile, such as a bullet. The projectile, of mass m, is fired into a large block (of wood or other material) of mass M, which is suspended like a pendulum. (Usually, M is somewhat greater than m.) As a result of the collision, the pendulum and projectile together swing up to a maximum height h. Determine the relationship between the initial horizontal speed of the projectile, v, and the maximum height h.
 
-<img src="/home/ou/Downloads/AP and SAT Subject/AP/physics/md/AP-Physics-1/images/Example 7-9.JPG" style="zoom:40%;float:left" /> For Part A, since gravity has no appreciable effect during the small time frame of the collision, momentum is conserved. Hence,
+<img src="../images/Example 7-9.JPG" style="zoom:40%;float:left" /> For Part A, since gravity has no appreciable effect during the small time frame of the collision, momentum is conserved. Hence,
 $mv + 0 = (m + M)v'$
 
 For Part B, gravity is a conservative force, so mechanical energy is conserved. Hence,

@@ -6,7 +6,7 @@
 
 > A roller-coaster car shown in Fig. 6–40 below is pulled up to point 1 where it is released from rest. Assuming no friction, calculate the speed at points 2, 3, and 4.
 >
-> ![](/home/ou/Downloads/AP%20and%20SAT%20Subject/AP/physics/md/AP-Physics-1/images/Problem%206-40.png)
+> ![](../images/Problem%206-40.png)
 
  Point 2: 
 $PE_1 = KE_2 \Longrightarrow gh = \dfrac12 v^2 \Longrightarrow v = \sqrt{2gh} = \boxed{25.04\;\mathrm{m/s}}$
