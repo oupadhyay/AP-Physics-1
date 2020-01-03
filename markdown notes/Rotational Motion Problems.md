@@ -188,11 +188,11 @@ $F_\perp = \tau/R \approx \boxed{129.6\;\mathrm{N}}$
 
 #### Part A
 
-
+$I = $
 
 #### Part B
 
-
+$\tau = I\alpha = $
 
 ### 46
 
