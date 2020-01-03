@@ -155,8 +155,6 @@ $\tau = r_{\perp}F = 1.2\;\mathrm{m}\cdot 0.020\;\mathrm{N} = \boxed{2.4\times 1
 
 > <img src="../images/Problem%208-39.png" style="zoom:55%;float:right;" />Calculate the moment of inertia of the array of point objects shown in the figure about (a) the y axis, and (b) the x axis. Assume $m = 2.2\;\mathrm{kg},$ $M= 3.4\;\mathrm{kg}$, and the objects are wired together by very light, rigid pieces of wire. The array is rectangular and is split through the middle by the x axis. (c) About which axis would it be harder to accelerate this array?
 >
->  
-> 
 
 #### Part A
 
@@ -180,7 +178,9 @@ $$
 
 > A dad pushes tangentially on a small hand-driven merry-go-round and is able to accelerate it from rest to a frequency of 15 rpm in 10.0 s. Assume the merry-go-round is a uniform disk of radius 2.5 m and has a mass of 560 kg, and two children (each with a mass of 25 kg) sit opposite each other on the edge. Calculate the torque required to produce the acceleration, neglecting frictional torque. What force is required at the edge?
 
+$\tau = I\alpha = (I_{\text{mgr}} + I_{\text{kids}})\dfrac{\Delta \omega}{\Delta t} = \left(\dfrac12 MR^2 + 2mR^2\right)\dfrac{(\omega\;\mathrm{rev/min})(2\pi\;\mathrm{rad/rev})}{(60\;\mathrm{s/min})t} = \boxed{320\;\mathrm{m\cdot N}}$
 
+$F_\perp = \tau/R \approx \boxed{129.6\;\mathrm{N}}$
 
 ### 43
 
