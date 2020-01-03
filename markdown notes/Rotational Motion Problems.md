@@ -118,3 +118,147 @@ $I = \dfrac25 MR^2 = \boxed{1.81\;\mathrm{kg\cdot m^2}}$
 
 $\alpha = \omega / t$
 $\tau = I\alpha = \left(\dfrac12MR_0^2\right)\left(\dfrac{\omega}{t}\right) = \dfrac{31000\cdot (7.0^2)\cdot 0.68}{2(34)} \approx \boxed{15,200\;\mathrm{m\cdot N}}$
+
+## Homework 1: Pg. 223 # 34, 37, 38, 39, 41, 43, 46 ,48, 50, 52, 54, 56
+
+### 34
+
+>  A grinding wheel is a uniform cylinder with a radius of 8.50 cm and a mass of 0.380 kg. Calculate (a) its moment of inertia about its center, and (b) the applied torque needed to accelerate it from rest to 1750 rpm in 5.00 s. Take into account a frictional torque that has been measured to slow down the wheel from 1500 rpm to rest in 55.0 s.
+
+#### Part A
+
+$I = \dfrac12 MR^2 = \dfrac12 (0.380)(0.0850)^2 = \boxed{0.00137\;\mathrm{kg\cdot m^2}}$
+
+#### Part B
+
+$\tau = I\alpha + I\alpha_f = \dfrac{(0.001373\;\mathrm{kg\cdot m^2})(1750\;\mathrm{rev})(1\;\mathrm{min})(2\pi\;\mathrm{rad})}{(1\;\mathrm{rev})(1\;\mathrm{min})(60\;\mathrm{s})(5.00\;\mathrm{s})} + \dfrac{(0.001373\;\mathrm{kg\cdot m^2})(1500\;\mathrm{rev})(1\;\mathrm{min})(2\pi\;\mathrm{rad})}{(1\;\mathrm{rev})(1\;\mathrm{min})(60\;\mathrm{s})(55.00\;\mathrm{s})} = \boxed{0.0542\;\mathrm{m\cdot N}}$
+
+### 37
+
+> A softball player swings a bat, accelerating it from rest to 2.6 rev/s in a time of 0.20 s. Approximate the bat as a 0.90-kg uniform rod of length 0.95 m, and compute the torque the player applies to one end of it.
+
+$\tau = I\alpha = \dfrac13M\ell^2 \dfrac{\Delta \omega}{\Delta t} = \dfrac13 (0.90\;\mathrm{kg})(0.95\;\mathrm{m})^2\left(\dfrac{(2.6\;\mathrm{rev/s})(2\pi\;\mathrm{rad})}{(1\;\mathrm{rev})(0.20\;\mathrm{s})}\right) = \boxed{22.1\;\mathrm{N\cdot m}}$
+
+### 38
+
+> A small 350-gram ball on the end of a thin, light rod is rotated in a horizontal circle of radius 1.2 m. Calculate (a) the moment of inertia of the ball about the center of the circle, and (b) the torque needed to keep the ball rotating at constant angular velocity if air resistance exerts a force of 0.020 N on the ball. Ignore air resistance on the rod and its moment of inertia.
+
+#### Part A
+
+$I= MR^2 = (0.350\;\mathrm{kg})(1.2\;\mathrm{m})^2 = \boxed{0.504\;\mathrm{kg\cdot m^2}}$
+
+#### Part B
+
+$\tau = r_{\perp}F = 1.2\;\mathrm{m}\cdot 0.020\;\mathrm{N} = \boxed{2.4\times 10^{-2}\;\mathrm{m\cdot N}}$
+
+### 39
+
+> <img src="../images/Problem%208-39.png" style="zoom:55%;float:right;" />Calculate the moment of inertia of the array of point objects shown in the figure about (a) the y axis, and (b) the x axis. Assume $m = 2.2\;\mathrm{kg},$ $M= 3.4\;\mathrm{kg}$, and the objects are wired together by very light, rigid pieces of wire. The array is rectangular and is split through the middle by the x axis. (c) About which axis would it be harder to accelerate this array?
+>
+>  
+> 
+
+#### Part A
+
+$$
+\begin{align*} \textsf{The Y Axis:}\;\;I = \sum M_i R_{ix}^2 = (m+M)\left[(0.50)^2 + (1.00)^2\right] = \boxed{7.0\;\mathrm{kg\cdot m^2}} \end{align*}
+$$
+
+#### Part B
+
+$$
+\begin{align*} \textsf{The X Axis:}\;\; I = \sum M_iR_{iy}^2 = 2(m+M)(0.25)^2 = \boxed{0.7\;\mathrm{kg\cdot m^2}}\end{align*}
+$$
+
+#### Part C
+
+$$
+\begin{align*}\textsf{It is harder to rotate about the y-axis as its moment of inertia is 10 times larger than the moment of inertia of the x-axis.}\end{align*}
+$$
+
+### 41
+
+> A dad pushes tangentially on a small hand-driven merry-go-round and is able to accelerate it from rest to a frequency of 15 rpm in 10.0 s. Assume the merry-go-round is a uniform disk of radius 2.5 m and has a mass of 560 kg, and two children (each with a mass of 25 kg) sit opposite each other on the edge. Calculate the torque required to produce the acceleration, neglecting frictional torque. What force is required at the edge?
+
+
+
+### 43
+
+> <img src="../images/Problem%208-43.png" style="zoom:60%;float:right;overflow:auto;" />Let us treat a helicopter rotor blade as a long thin rod, as shown in Fig. 8–49. (a) If each of the three rotor helicopter blades is 3.75 m long and has a mass of 135 kg, calculate the moment of inertia of the three rotor blades about the axis of rotation. (b) How much torque must the motor apply to bring the blades from rest up to a speed of 6.0 rev/s in 8.0 s?
+
+#### Part A
+
+
+
+#### Part B
+
+
+
+### 46
+
+> <img src="../images/Problem%208-46.png" style="zoom:60%;float:right;overflow:auto;" />Two blocks are connected by a light string passing over a pulley of radius  0.15 m and moment of inertia I. The blocks move (towards the right) with an acceleration of $1.00\;\mathrm{m/s^2}$ along their frictionless inclines (see figure. (a) Draw free-body diagrams for each of the two blocks and the pulley. (b) Determine $F_{TA}$ and $F_{TB}$, the tensions in the two parts of the string. (c) Find the net   torque acting on the pulley, and determine its moment of inertia, $I$.
+>
+
+#### Part A
+
+
+
+#### Part B
+
+
+
+#### Part C
+
+
+
+### 48
+
+> A hammer thrower accelerates the hammer (mass = 7.30 kg) from rest within four full turns (revolutions) and releases it at a speed of 26.5 m/s. Assuming a uniform rate of increase in angular velocity and a horizontal circular path of radius 1.20 m, calculate (a) the angular acceleration, (b) the (linear) tangential acceleration, (c) the centripetal acceleration just before release, (d) the net force being exerted on the hammer by the athlete just before release, and (e) the angle of this force with respect to the radius of the circular motion. Ignore gravity.
+
+#### Part A
+
+
+
+#### Part B
+
+
+
+#### Part C
+
+
+
+#### Part D
+
+
+
+### 50
+
+> A centrifuge rotor has a moment of inertia of $3.25 \times 10^{-2}\;\mathrm{kg\cdot m^2}$. How much energy is required to bring it from rest to 8750 rpm?
+
+
+
+### 52
+
+> A bowling ball of mass 7.25 kg and radius 10.8 cm rolls without slipping down a lane at Calculate its total kinetic energy.
+
+
+
+### 54
+
+> A rotating uniform cylindrical platform of mass 220 kg and radius 5.5 m slows down from 3.8 rev/s to rest in 16 s when the driving motor is disconnected. Estimate the power output of the motor (hp) required to maintain a steady speed of 3.8 rev/s.
+
+
+
+### 56
+
+> A sphere of radius $r = 34.5\;\mathrm{cm}$ and mass $m = 1.80\;\mathrm{kg}$ starts from rest and rolls without slipping down a 30.0° incline that is 10.0 m long. (a) Calculate its translational and rotational speeds when it reaches the bottom. (b) What is the ratio of translational to rotational kinetic energy at the bottom? Solve generally so you can answer: (c) do your answers in (a) and (b) depend on the radius of the sphere or its mass?
+
+#### Part A
+
+
+
+#### Part B
+
+
+
+#### Part C
