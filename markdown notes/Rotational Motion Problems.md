@@ -188,28 +188,33 @@ $F_\perp = \tau/R \approx \boxed{129.6\;\mathrm{N}}$
 
 #### Part A
 
-$I = $
+$I = 3\left(\dfrac13 M\ell^2\right) = (135\;\mathrm{kg})(3.75\;\mathrm{m})^2 = \boxed{1898\;\mathrm{kg\cdot m^2}}$
 
 #### Part B
 
-$\tau = I\alpha = $
+$\tau = I\alpha = (1898\;\mathrm{kg\cdot m^2})\left(\dfrac{(6.0\;\mathrm{rev/s})(2\pi\;\mathrm{rad/rev})}{8.0\;\mathrm{s}}\right) \approx \boxed{8900\;\mathrm{m\cdot N}}$
 
 ### 46
 
-> <img src="../images/Problem%208-46.png" style="zoom:60%;float:right;overflow:auto;" />Two blocks are connected by a light string passing over a pulley of radius  0.15 m and moment of inertia I. The blocks move (towards the right) with an acceleration of $1.00\;\mathrm{m/s^2}$ along their frictionless inclines (see figure. (a) Draw free-body diagrams for each of the two blocks and the pulley. (b) Determine $F_{TA}$ and $F_{TB}$, the tensions in the two parts of the string. (c) Find the net   torque acting on the pulley, and determine its moment of inertia, $I$.
->
+> <img src="../images/Problem%208-46.png" style="zoom:60%;float:right;overflow:auto;" />Two blocks are connected by a light string passing over a pulley of radius  0.15 m and moment of inertia I. The blocks move (towards the right) with an acceleration of $1.00\;\mathrm{m/s^2}$ along their frictionless inclines (see figure. (a) Draw free-body diagrams for each of the two blocks and the pulley. (b) Determine $F_{TA}$ and $F_{TB}$, the tensions in the two parts of the string. (c) Find the net torque acting on the pulley, and determine its moment of inertia, $I$.
 
 #### Part A
 
+See diagrams to the right.
 
+<img src="../images/Problem%208-46a.png" style="zoom:35%;float:right;" /><img src="../images/Problem%208-46a2.png" style="zoom:35%;float:right;" />
 
 #### Part B
 
+Since the force vectors perpendicular to the surface cancel out, we only care for the forces acting parallel to the surface:
 
+$F_{TA} = m(a + g\sin\theta_\alpha)= (8.0\;\mathrm{kg})(1.00\;\mathrm{m/s^2} + 9.8\sin(32^\circ)) = \boxed{49.55\;\mathrm{N}}$
+$F_{TB} = m(-a+g\sin\theta_\beta) = (10.0\;\mathrm{kg})(-1.00 + 9.8\sin(61^\circ)) = \boxed{75.71\;\mathrm{N}}$
 
 #### Part C
 
-
+$\sum\tau = (F_{TB} - F_{TA})R = \boxed{3.92\;\mathrm{m\cdot N}}$
+$\sum\tau =I\alpha \Longrightarrow I = \dfrac{(\sum \tau)R}{a} = \boxed{0.588\;\mathrm{m^2\cdot kg}}$
 
 ### 48
 
@@ -217,19 +222,23 @@ $\tau = I\alpha = $
 
 #### Part A
 
-
+$\alpha = \dfrac{\omega^2 - \omega_0^2}{2\Delta \theta} = \dfrac{\left[\frac{26.5\;\mathrm{m/s}}{1.20\;\mathrm{m}}\right]^2}{2(4(2\pi))} = \boxed{9.70\;\mathrm{rad/s^2}}$
 
 #### Part B
 
-
+$a = \dfrac{\alpha}{R} = (9.702\;\mathrm{rad/s^2})(1.20\;\mathrm{m}) = \boxed{11.64\;\mathrm{m/s^2}}$
 
 #### Part C
 
-
+$a_c = \dfrac{v^2}{R} = \dfrac{(26.5\;\mathrm{m/s})^2}{1.20\;\mathrm{m}} = \boxed{585.2\;\mathrm{m/s^2}}$
 
 #### Part D
 
+$F = ma_{\text{net}} = (7.30\;\mathrm{kg})\left(\sqrt{(11.64)^2 + (585.2)^2}\right) =  \boxed{4272\;\mathrm{N}}$
 
+#### Part E
+
+$\theta = \tan^{-1} \dfrac{a_{\text{tan}}}{a_{c}} = \boxed{1.14^\circ}$
 
 ### 50
 
