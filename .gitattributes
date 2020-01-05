@@ -7,5 +7,5 @@
 # Show PDFs
 *.pdf linguist-vendored=false
 *.pdf linguist-generated=false
-*.pdf linguist-documentation=fals
+*.pdf linguist-documentation=false
 *.pdf linguist-detectable=true
