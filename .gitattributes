@@ -1,4 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 *.md linguist-language=Markdown
-.\*.md linguist-language=Markdown
+.\markdown-notes\*.md linguist-language=Markdown
+\markdown-notes\*.md linguist-language=Markdown
+.\markdown%20notes\*.md linguist-language=Markdown
+\markdown%20notes\*.md linguist-language=Markdown
