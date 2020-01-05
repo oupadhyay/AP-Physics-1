@@ -264,10 +264,14 @@ $P=Wt=\Delta KE\cdot t = \dfrac12 MR\omega^2t = \dfrac12(220\cdot 5.5\cdot 3.8^2
 
 #### Part A
 
-$\omega = \sqrt{2\alpha\Delta\theta} = \sqrt{2()}$
+$mgh = \dfrac12 \cdot \dfrac25mr^2\omega^2 + \dfrac12m(r\omega)^2\Longrightarrow \omega = \sqrt{\dfrac{10gh}{7r^2}} = \boxed{24.25\;\mathrm{rad/s}}$
+
+$v = r\omega = \boxed{8.37\;\mathrm{m/s}}$
 
 #### Part B
 
-
+$\dfrac{TKE}{RKE} = \dfrac{\dfrac12 m(r\omega)^2}{\dfrac12 I\omega^2} = \dfrac{mr^2\omega^2}{\dfrac25mr^2\omega^2} = \boxed{\dfrac{5}{2}}$
 
 #### Part C
+
+Since $v = r\omega$, only $\omega$ depends on the radius of the sphere as the greater the radius the smaller the rotational kinetic energy as fewer rotations take place. Also, in both cases, the masses cancel so therefore the mass has no effect on the ratio of kinetic energies and the end velocities of the sphere.
