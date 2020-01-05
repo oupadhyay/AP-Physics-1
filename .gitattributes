@@ -4,7 +4,7 @@
 *.md linguist-generated=false
 *.md linguist-documentation=false
 *.md linguist-detectable=true
-/markdown-notes/*.md linguist-vendored=false
-/markdown-notes/*.md linguist-generated=false
-/markdown-notes/*.md linguist-documentation=false
-/markdown-notes/*.md linguist-detectable=true
+markdown-notes/*.md linguist-vendored=false
+markdown-notes/*.md linguist-generated=false
+markdown-notes/*.md linguist-documentation=false
+markdown-notes/*.md linguist-detectable=true
