@@ -121,6 +121,18 @@ $\tau = I\alpha = \left(\dfrac12MR_0^2\right)\left(\dfrac{\omega}{t}\right) = \d
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## Homework 2: Pg. 223 # 34, 37, 38, 39, 41, 43, 46 ,48, 50, 52, 54, 56
 
 ### 34
