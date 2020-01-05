@@ -1,7 +1,10 @@
-# Auto detect text files and perform LF normalization
+# Auto detect files and show languages
 * text=auto
 *.md linguist-vendored=false
 *.md linguist-generated=false
 *.md linguist-documentation=false
 *.md linguist-detectable=true
-/**/*.md linguist-detectable=true
+/markdown-notes/*.md linguist-vendored=false
+/markdown-notes/*.md linguist-generated=false
+/markdown-notes/*.md linguist-documentation=false
+/markdown-notes/*.md linguist-detectable=true
