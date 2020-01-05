@@ -119,7 +119,9 @@ $I = \dfrac25 MR^2 = \boxed{1.81\;\mathrm{kg\cdot m^2}}$
 $\alpha = \omega / t$
 $\tau = I\alpha = \left(\dfrac12MR_0^2\right)\left(\dfrac{\omega}{t}\right) = \dfrac{31000\cdot (7.0^2)\cdot 0.68}{2(34)} \approx \boxed{15,200\;\mathrm{m\cdot N}}$
 
-## Homework 1: Pg. 223 # 34, 37, 38, 39, 41, 43, 46 ,48, 50, 52, 54, 56
+
+
+## Homework 2: Pg. 223 # 34, 37, 38, 39, 41, 43, 46 ,48, 50, 52, 54, 56
 
 ### 34
 
