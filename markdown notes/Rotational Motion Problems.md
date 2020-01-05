@@ -244,19 +244,19 @@ $\theta = \tan^{-1} \dfrac{a_{\text{tan}}}{a_{c}} = \boxed{1.14^\circ}$
 
 > A centrifuge rotor has a moment of inertia of $3.25 \times 10^{-2}\;\mathrm{kg\cdot m^2}$. How much energy is required to bring it from rest to 8750 rpm?
 
-
+$KE = \dfrac12 I\omega^2 = \dfrac12 (3.25\times 10^{-2}\;\mathrm{kg\cdot m^2}) (8750\;\mathrm{rev/min})^2 \left(\dfrac{1\;\mathrm{min}\cdot 2\pi\;\mathrm{rad}}{60\;\mathrm{s}\cdot 1\;\mathrm{rev}}\right)^2 = \boxed{13,640\;\mathrm{N\cdot m}}$
 
 ### 52
 
-> A bowling ball of mass 7.25 kg and radius 10.8 cm rolls without slipping down a lane at Calculate its total kinetic energy.
+> A bowling ball of mass 7.25 kg and radius 10.8 cm rolls without slipping down a lane at 3.10 m/s. Calculate its total kinetic energy.
 
+$KE = \dfrac12\left(Mv^2 + I\omega^2\right) = \dfrac12\left((7.25\cdot (3.10\cdot0.108)^2) + \dfrac25(7.25)(3.10)^2\right) = \boxed{14.34\;\mathrm{J}}$
 
-
-### 54
+### 54 ==confused==
 
 > A rotating uniform cylindrical platform of mass 220 kg and radius 5.5 m slows down from 3.8 rev/s to rest in 16 s when the driving motor is disconnected. Estimate the power output of the motor (hp) required to maintain a steady speed of 3.8 rev/s.
 
-
+$P=Wt=\Delta KE\cdot t = \dfrac12 MR\omega^2t = \dfrac12(220\cdot 5.5\cdot 3.8^2\cdot 16) = \boxed{190\;\mathrm{W}}$
 
 ### 56
 
@@ -264,7 +264,7 @@ $\theta = \tan^{-1} \dfrac{a_{\text{tan}}}{a_{c}} = \boxed{1.14^\circ}$
 
 #### Part A
 
-
+$\omega = \sqrt{2\alpha\Delta\theta} = \sqrt{2()}$
 
 #### Part B
 
