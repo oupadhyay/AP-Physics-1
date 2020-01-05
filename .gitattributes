@@ -1,10 +1,11 @@
-# Auto detect files and show languages
+# Auto detect files and show Markdown 
 * text=auto
 *.md linguist-vendored=false
 *.md linguist-generated=false
 *.md linguist-documentation=false
 *.md linguist-detectable=true
-markdown-notes/*.md linguist-vendored=false
-markdown-notes/*.md linguist-generated=false
-markdown-notes/*.md linguist-documentation=false
-markdown-notes/*.md linguist-detectable=true
+# Show PDFs
+*.pdf linguist-vendored=false
+*.pdf linguist-generated=false
+*.pdf linguist-documentation=fals
+*.pdf linguist-detectable=true
