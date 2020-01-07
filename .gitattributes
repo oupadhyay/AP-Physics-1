@@ -1,0 +1,11 @@
+# Auto detect files and show Markdown 
+* text=auto
+*.md linguist-vendored=false
+*.md linguist-generated=false
+*.md linguist-documentation=false
+*.md linguist-detectable=true
+# Show PDFs
+*.pdf linguist-vendored=false
+*.pdf linguist-generated=false
+*.pdf linguist-documentation=false
+*.pdf linguist-detectable=true
