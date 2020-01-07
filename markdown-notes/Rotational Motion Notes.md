@@ -100,7 +100,8 @@ $$
 
 ## Rolling Motion (Without Slipping)
 
-
+When something is rolling without slipping, then there is a simple relation between the translation and angular velocities:
+==$v = r\omega$==.
 
 ## Torque
 
