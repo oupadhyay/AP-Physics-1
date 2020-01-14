@@ -105,7 +105,7 @@ When something is rolling without slipping, then there is a simple relation betw
 
 ## Torque
 
-
+$\tau = F\cdot d$
 
 ## Rotational Dynamics; Torque and Rotational Inertia
 
