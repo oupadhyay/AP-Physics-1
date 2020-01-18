@@ -18,11 +18,15 @@ The period of oscillation will be larger as the period is equal to: $2\pi \sqrt{
 
 > How could you double the maximum speed of a simple harmonic oscillator (SHO)?
 
+$PE = \dfrac12 kx^2 = \dfrac12 mv^2 = KE\Longrightarrow v = \sqrt{\frac{kx^2}{m}}$
 
+With this equation, one can double the maximum speed by dividing their mass by $4$, multiplying the spring constant by $4$, or by multiplying the starting distance by $2$.
 
 ### 4
 
+> Estimate the stiffness of the spring in a child’s pogo stick if the child has a mass of 32 kg and bounces once every 2.0 seconds.
 
+The period of the spring is every 2.0 seconds and the mass at the end of the spring is 32 kg. Since $P = 2\pi\sqrt{\frac{m}{k}},$ we get that $\dfrac{m}{\left(\frac{P}{2\pi}\right)^2} = k$
 
 ### 5
 
