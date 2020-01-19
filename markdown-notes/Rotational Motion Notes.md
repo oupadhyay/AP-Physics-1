@@ -73,7 +73,7 @@ Total linear acceleration: ==$\vec{\mathbf{a}} = \vec{\mathbf{a}_{\text{tan}}} +
 | Linear           | Type                             | Rotational | Relation      |
 | $x$              | displacement                     | $\theta$   | $x = r\theta$ |
 | $v$              | velocity                         | $\omega$   | $v = r\omega$ |
-| $a_{\text{tan}}$ | acceleration                     |            |               |
+| $a_{\text{tan}}$ | acceleration                     | $\alpha$   |               |
 
 ### Frequency and Period
 
