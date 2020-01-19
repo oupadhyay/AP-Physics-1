@@ -289,3 +289,65 @@ $\dfrac{TKE}{RKE} = \dfrac{\dfrac12 m(r\omega)^2}{\dfrac12 I\omega^2} = \dfrac{m
 #### Part C
 
 Since $v = r\omega$, only $\omega$ depends on the radius of the sphere as the greater the radius the smaller the rotational kinetic energy as fewer rotations take place. Also, in both cases, the masses cancel so therefore the mass has no effect on the ratio of kinetic energies and the end velocities of the sphere.
+
+
+
+## Homework 3: Pg. 222 # 19, 24, 26, 31, 35, 36, 39, 47, 49, 55, 59, 62, 67, 73, 87, 93
+
+### 19
+
+> Pilots can be tested for the stresses flying high-speed jets in a whirling “human centrifuge,” which takes 1.0 min to turn through 23 complete revolutions before reaching its final speed. (a) What was its angular acceleration, and (b) what was its final angular speed in rpm?
+
+#### Part A
+
+$\theta = \omega_0 t + \dfrac12 \alpha t^2\Longrightarrow 23\;\mathrm{rev}\cdot 360\;\mathrm{deg/rev} = \dfrac12\alpha\left(60\;\mathrm{s}\right)^2\Longrightarrow\alpha = \boxed{4.6\;\mathrm{deg/s^2}}$
+
+#### Part B
+
+$\omega = \omega_0t + \dfrac12 \alpha t^2 = \dfrac12 (4.6)(60\;\mathrm{s}) = \boxed{138\;\mathrm{deg/s}}$
+
+### 24
+
+> A 52-kg person riding a bike puts all her weight on each pedal when climbing a hill. The pedals rotate in a circle of radius 17 cm. (a) What is the maximum torque she exerts? (b) How could she exert more torque?
+
+#### Part A
+
+$\tau = F\cdot d = 52g\;\mathrm{N}\cdot0.17\;\mathrm{m} = 86.632\;\mathrm{N\cdot m}$
+
+#### Part B
+
+She could get bigger pedals that rotate in a larger circle, therefore increasing the torque on the pedal.
+
+### 26
+
+> A person exerts a horizontal force of 42 N on the end of a door 96 cm wide. What is the magnitude of the torque if the force is exerted (a) perpendicular to the door and (b) at a 60.0° angle to the face of the door?
+
+#### Part A
+
+$\tau = F_\perp \cdot d = 42\;\mathrm{N} \cdot 0.96\;\mathrm{m} = \boxed{40.32\;\mathrm{N\cdot m}}$
+
+#### Part B
+
+$\tau = F_\perp \cdot d = 42\sin(60^\circ)\;\mathrm{N}\cdot 0.96\;\mathrm{m} \approx \boxed{34.92\;\mathrm{N\cdot m}}$
+
+### 31
+
+> Estimate the moment of inertia of a bicycle wheel 67 cm in diameter. The rim and tire have a combined mass of 1.1 kg. The mass of the hub (at the center) can be ignored (R = 0).
+
+$I = MR^2 = 1.1\;\mathrm{kg}\cdot (0.67\;\mathrm{m})^2 = \boxed{0.49\underline{4}\;\mathrm{kg\cdot m^2}}$
+
+### 35
+
+> The forearm accelerates a 3.6-kg ball at $7.0\;\mathrm{m/s^2}$ by means of the triceps muscle, as shown. Calculate (a) the torque needed, and (b) the force that must be exerted by the triceps muscle. Ignore the mass of the arm.
+
+
+
+### 36
+
+
+
+### 39
+
+
+
+### 47, 49, 55, 59, 62, 67, 73, 87, 93
