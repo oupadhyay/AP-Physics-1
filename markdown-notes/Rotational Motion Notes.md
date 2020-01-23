@@ -73,7 +73,7 @@ Total linear acceleration: ==$\vec{\mathbf{a}} = \vec{\mathbf{a}_{\text{tan}}} +
 | Linear           | Type                             | Rotational | Relation      |
 | $x$              | displacement                     | $\theta$   | $x = r\theta$ |
 | $v$              | velocity                         | $\omega$   | $v = r\omega$ |
-| $a_{\text{tan}}$ | acceleration                     |            |               |
+| $a_{\text{tan}}$ | acceleration                     | $\alpha$   |               |
 
 ### Frequency and Period
 
@@ -105,7 +105,7 @@ When something is rolling without slipping, then there is a simple relation betw
 
 ## Torque
 
-
+$\tau = F\cdot d$
 
 ## Rotational Dynamics; Torque and Rotational Inertia
 
