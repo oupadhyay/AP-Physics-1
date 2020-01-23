@@ -30,20 +30,29 @@ The period of the spring is every 2.0 seconds and the mass at the end of the spr
 
 ### 5
 
+ >
 
 
-### 6 
+
+### 6
+
+>  
 
 
 
 ### 7
 
+>  
+
 
 
 ### 8
+
+>  
 
 
 
 ### 9
 
+>  
 
