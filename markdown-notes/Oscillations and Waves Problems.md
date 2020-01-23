@@ -26,7 +26,7 @@ With this equation, one can double the maximum speed by dividing their mass by $
 
 > Estimate the stiffness of the spring in a child’s pogo stick if the child has a mass of 32 kg and bounces once every 2.0 seconds.
 
-The period of the spring is every 2.0 seconds and the mass at the end of the spring is 32 kg. Since $P = 2\pi\sqrt{\frac{m}{k}},$ we get that $\dfrac{m}{\left(\frac{P}{2\pi}\right)^2} = k$
+The period of the spring is every 2.0 seconds and the mass at the end of the spring is 32 kg. Since $P = 2\pi\sqrt{\frac{m}{k}},$ we get that $\dfrac{m}{\left(\frac{P}{2\pi}\right)^2} = k.$
 
 ### 5
 
