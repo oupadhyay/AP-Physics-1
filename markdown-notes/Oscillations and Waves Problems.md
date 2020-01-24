@@ -30,9 +30,10 @@ The period of the spring is every 2.0 seconds and the mass at the end of the spr
 
 ### 5
 
- >
+ >A fisherman’s scale stretches 3.6 cm when a 2.4-kg fish hangs from it. (a) What is the spring stiffness constant and (b) what will be the amplitude and frequency of oscillation if the fish is pulled down 2.1 cm more and released so that
+ >it oscillates up and down?
 
-
+$F = -kx$ 
 
 ### 6
 
