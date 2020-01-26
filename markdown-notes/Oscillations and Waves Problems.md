@@ -18,7 +18,9 @@ The period of oscillation will be larger as the period is equal to: $2\pi \sqrt{
 
 > How could you double the maximum speed of a simple harmonic oscillator (SHO)?
 
-$PE = \dfrac12 kx^2 = \dfrac12 mv^2 = KE\Longrightarrow v = \sqrt{\frac{kx^2}{m}}$
+$$
+PE = \dfrac12 kx^2 = \dfrac12 mv^2 = KE\Longrightarrow v = \sqrt{\frac{kx^2}{m}}
+$$
 
 With this equation, one can double the maximum speed by dividing their mass by $4$, multiplying the spring constant by $4$, or by multiplying the starting distance by $2$.
 
@@ -26,18 +28,38 @@ With this equation, one can double the maximum speed by dividing their mass by $
 
 > Estimate the stiffness of the spring in a child’s pogo stick if the child has a mass of 32 kg and bounces once every 2.0 seconds.
 
-The period of the spring is every 2.0 seconds and the mass at the end of the spring is 32 kg. Since $P = 2\pi\sqrt{\frac{m}{k}},$ we get that $\dfrac{m}{\left(\frac{P}{2\pi}\right)^2} = k.$
+$$
+f = \dfrac{1}{2\pi}\sqrt{\dfrac{m}{k}} \longrightarrow T^2 = 4\pi^2\dfrac{m}{k}\Longrightarrow k = 4\pi^2 \dfrac{32\;\mathrm{kg}}{(2.0\;\mathrm{s})^2} = \boxed{315.8\;\mathrm{N/m}}
+$$
 
 ### 5
 
- >A fisherman’s scale stretches 3.6 cm when a 2.4-kg fish hangs from it. (a) What is the spring stiffness constant and (b) what will be the amplitude and frequency of oscillation if the fish is pulled down 2.1 cm more and released so that
- >it oscillates up and down?
+ >A fisherman’s scale stretches 3.6 cm when a 2.4-kg fish hangs from it. (a) What is the spring stiffness constant and (b) what will be the amplitude and frequency of oscillation if the fish is pulled down 2.1 cm more and released so that it oscillates up and down?
 
-$F = -kx$ 
+#### Part A
+
+$$
+F = F_g = (2.4)(9.8) = -k(0.036)\Longrightarrow k = 653.333 
+$$
+
+#### Part B
+
+Amplitude = 2.1 cm because the force of gravity essentially moves the equilibrium point 3.6 cm down. 
+$$
+f = \dfrac{1}{2\pi}\sqrt{\dfrac{m}{k}} = \boxed{2.625\;\mathrm{Hz}}
+$$
 
 ### 6
 
->  
+>  A small fly of mass 0.22 g is caught in a spider’s web. The web oscillates predominantly with a frequency of 4.0 Hz. (a) What is the value of the effective spring stiffness constant k for the web? (b) At what frequency would you expect the web to oscillate if an insect of mass 0.44 g were trapped?
+
+#### Part A
+
+$$
+k = 4\pi^2\left(\dfrac{m}{T^2}\right) m= 4\pi^2 \left(\dfrac{0.00022}{4^{-2}}\right)
+$$
+
+#### Part B
 
 
 
