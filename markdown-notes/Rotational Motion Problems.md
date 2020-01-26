@@ -415,7 +415,7 @@ $$
 
 >  A 1.80-m-long pole is balanced vertically with its tip on the ground. It starts to fall and its lower end does not slip. What will be the speed of the upper end of the pole just before it hits the ground? [Hint: Use conservation of energy.]
 
-
+$I = \dfrac13 MR^2$
 
 ### 62
 
