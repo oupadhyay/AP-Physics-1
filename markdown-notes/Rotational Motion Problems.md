@@ -340,16 +340,22 @@ $I = MR^2 = 1.1\;\mathrm{kg}\cdot (0.67\;\mathrm{m})^2 = \boxed{0.49\underline{4
 
 > The forearm accelerates a 3.6-kg ball at $7.0\;\mathrm{m/s^2}$ by means of the triceps muscle, as shown. Calculate (a) the torque needed, and (b) the force that must be exerted by the triceps muscle. Ignore the mass of the arm.
 
+#### Part A
+
 $$
 F = ma = 3.6\cdot 7.0 = 25.2\;\mathrm{N}\\
-\tau = F\cdot d = 25.2\cdot 0.31 = 
+\tau = F\cdot d = 25.2\cdot 0.31 = \boxed{7.812\;\mathrm{N\cdot m}}
 $$
 
+#### Part B
 
+$$
+\dfrac{\tau_{\text{tricep}}}{d} = F = \dfrac{7.812}{0.025} = \boxed{310\;\mathrm{N}}
+$$
 
 ### 36
 
->  
+>  Assume that a 1.00-kg ball is thrown solely by the action of the forearm, which rotates about the elbow joint under the action of the triceps muscle. The ball is muscle accelerated uniformly from rest to 8.5 m/s in 0.38 s, at which point it is released. Calculate (a) the angular acceleration of the arm, and (b) the force required of the triceps muscle. Assume that the forearm has a mass of 3.7 kg and rotates like a uniform rod about an axis at its end.
 
 
 
