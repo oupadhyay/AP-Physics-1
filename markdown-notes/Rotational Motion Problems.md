@@ -357,6 +357,7 @@ $$
 
 >  Assume that a 1.00-kg ball is thrown solely by the action of the forearm, which rotates about the elbow joint under the action of the triceps muscle. The ball is muscle accelerated uniformly from rest to 8.5 m/s in 0.38 s, at which point it is released. Calculate (a) the angular acceleration of the arm, and (b) the force required of the triceps muscle. Assume that the forearm has a mass of 3.7 kg and rotates like a uniform rod about an axis at its end.
 
+==confused==
 
 ### 39
 
