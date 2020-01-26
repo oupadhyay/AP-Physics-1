@@ -29,7 +29,7 @@ With this equation, one can double the maximum speed by dividing their mass by $
 > Estimate the stiffness of the spring in a child’s pogo stick if the child has a mass of 32 kg and bounces once every 2.0 seconds.
 
 $$
-f = \dfrac{1}{2\pi}\sqrt{\dfrac{m}{k}} \longrightarrow T^2 = 4\pi^2\dfrac{m}{k}\Longrightarrow k = 4\pi^2 \dfrac{32\;\mathrm{kg}}{(2.0\;\mathrm{s})^2} = \boxed{315.8\;\mathrm{N/m}}
+f = \dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}} \longrightarrow T^2 = 4\pi^2\dfrac{m}{k}\Longrightarrow k = 4\pi^2 \dfrac{32\;\mathrm{kg}}{(2.0\;\mathrm{s})^2} = \boxed{315.8\;\mathrm{N/m}}
 $$
 
 ### 5
@@ -46,7 +46,7 @@ $$
 
 Amplitude = 2.1 cm because the force of gravity essentially moves the equilibrium point 3.6 cm down. 
 $$
-f = \dfrac{1}{2\pi}\sqrt{\dfrac{m}{k}} = \boxed{2.625\;\mathrm{Hz}}
+f = \dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}} = \boxed{2.625\;\mathrm{Hz}}
 $$
 
 ### 6
@@ -54,14 +54,13 @@ $$
 >  A small fly of mass 0.22 g is caught in a spider’s web. The web oscillates predominantly with a frequency of 4.0 Hz. (a) What is the value of the effective spring stiffness constant k for the web? (b) At what frequency would you expect the web to oscillate if an insect of mass 0.44 g were trapped?
 
 #### Part A
-
 $$
-k = 4\pi^2\left(\dfrac{m}{T^2}\right) m= 4\pi^2 \left(\dfrac{0.00022}{4^{-2}}\right)
+k = 4\pi^2\left(\dfrac{m}{T^2}\right) = 4\pi^2 \left(\dfrac{0.00022}{4^{-2}}\right)=\boxed{0.139\;\mathrm{N/m}}
 $$
 
 #### Part B
 
-
+As shown by $f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$, we can see that the square root of the mass varies indirectly with the frequency, so if the mass doubles, the frequency would be $2\sqrt2\;\mathrm{Hz}$.
 
 ### 7
 
