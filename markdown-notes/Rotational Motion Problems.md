@@ -361,31 +361,59 @@ $$
 
 ### 39
 
->  
+> <img src="../images/Problem%208-39.png" style="zoom:55%;float:right;" />Calculate the moment of inertia of the array of point objects shown in the figure about (a) the y axis, and (b) the x axis. Assume $m = 2.2\;\mathrm{kg},$ $M= 3.4\;\mathrm{kg}$, and the objects are wired together by very light, rigid pieces of wire. The array is rectangular and is split through the middle by the x axis. (c) About which axis would it be harder to accelerate this array?
 
+#### Part A
 
+$$
+\begin{align*} \textsf{The Y Axis:}\;\;I = \sum M_i R_{ix}^2 = (m+M)\left[(0.50)^2 + (1.00)^2\right] = \boxed{7.0\;\mathrm{kg\cdot m^2}} \end{align*}
+$$
+
+#### Part B
+
+$$
+\begin{align*} \textsf{The X Axis:}\;\; I = \sum M_iR_{iy}^2 = 2(m+M)(0.25)^2 = \boxed{0.7\;\mathrm{kg\cdot m^2}}\end{align*}
+$$
+
+#### Part C
+
+$$
+\begin{align*}\textsf{It is harder to rotate about the y-axis as its moment of inertia is 10 times larger than the moment of inertia of the x-axis.}\end{align*}
+$$
 
 ### 47
 
->  
+>  An Atwood machine consists of two masses, $m_A = 65\;\mathrm{kg}$ and $m_B = 75\;\mathrm{kg}$, connected by a massless inelastic cord that passes over a pulley free to rotate. The pulley is a solid cylinder of radius R = 0.45 m and mass 6.0 kg. (a) Determine the acceleration of each mass. (b) What % error would be made if the moment of inertia of the pulley is ignored? [Hint:]()The tensions $F_{TA}$ and $F_{TB}$ are not equal.
 
+#### Part A
 
+$$
+a = \dfrac{g(m_B - m_A)}{m_A + m_B + I/R^2} = \dfrac{g(m_B - m_A)}{m_A + m_B + \frac12m_pR^2/R^2} = \boxed{0.685\;\mathrm{m/s^2}}
+$$
+
+#### Part B
+
+$$
+a = \dfrac{g(m_B - m_A)}{m_A + m_B} = 0.700\;\mathrm{m/s^2}\Longrightarrow \dfrac{0.0147}{0.6853} = \boxed{2.15\;\%}
+$$
 
 ### 49
 
->  
+>  An automobile engine develops a torque of $265\;\mathrm{m\cdot N}$ at 3350 rpm. What is the horsepower of the engine?
 
-
+$P = \dfrac{W}{\Delta t} = \tau \dfrac{\Delta \theta}{\Delta t} = \tau \omega = \left(265\;\mathrm{m\cdot N}\right)\cdot 3350\;\mathrm{rev/min}\cdot\left(\dfrac{2\pi\;\mathrm{rad}}{1\;\mathrm{rev}}\right)\cdot \left(\dfrac{1\;\mathrm{min}}{60\;\mathrm{s}}\right) \cdot \left(\dfrac{1\;\mathrm{hp}}{746\;\mathrm{W}} \right)= \boxed{125\;\mathrm{hp}}$
 
 ### 55
 
->  
+>  A merry-go-round has a mass of 1440 kg and a radius of 7.50 m. How much net work is required to accelerate it from rest to a rotation rate of 1.00 revolution per 7.00 s? Assume it is a solid cylinder.
 
-
+$$
+W = \dfrac12 I\omega_f^2 - \dfrac12 I\omega_0^2 = \dfrac14 MR^2 \omega_f^2 = \boxed{1.63\times 10^4\;\mathrm{J}}
+$$
 
 ### 59
 
->  
+>  A 1.80-m-long pole is balanced vertically with its tip on the ground. It starts to fall and its lower end does not slip. What will be the speed of the upper end of the pole just before it hits the ground? [Hint: Use conservation of energy.]
 
 
 
