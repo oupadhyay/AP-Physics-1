@@ -358,7 +358,6 @@ $$
 >  Assume that a 1.00-kg ball is thrown solely by the action of the forearm, which rotates about the elbow joint under the action of the triceps muscle. The ball is muscle accelerated uniformly from rest to 8.5 m/s in 0.38 s, at which point it is released. Calculate (a) the angular acceleration of the arm, and (b) the force required of the triceps muscle. Assume that the forearm has a mass of 3.7 kg and rotates like a uniform rod about an axis at its end.
 
 
-
 ### 39
 
 > <img src="../images/Problem%208-39.png" style="zoom:55%;float:right;" />Calculate the moment of inertia of the array of point objects shown in the figure about (a) the y axis, and (b) the x axis. Assume $m = 2.2\;\mathrm{kg},$ $M= 3.4\;\mathrm{kg}$, and the objects are wired together by very light, rigid pieces of wire. The array is rectangular and is split through the middle by the x axis. (c) About which axis would it be harder to accelerate this array?
