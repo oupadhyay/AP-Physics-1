@@ -54,6 +54,7 @@ $$
 >  A small fly of mass 0.22 g is caught in a spider’s web. The web oscillates predominantly with a frequency of 4.0 Hz. (a) What is the value of the effective spring stiffness constant k for the web? (b) At what frequency would you expect the web to oscillate if an insect of mass 0.44 g were trapped?
 
 #### Part A
+
 $$
 k = 4\pi^2\left(\dfrac{m}{T^2}\right) = 4\pi^2 \left(\dfrac{0.00022}{4^{-2}}\right)=\boxed{0.139\;\mathrm{N/m}}
 $$
@@ -64,13 +65,23 @@ As shown by $f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$, we can see that the square r
 
 ### 7
 
->  
+>  A mass m at the end of a spring oscillates with a frequency of 0.83 Hz. When an additional 780-g mass is added to m, the frequency is 0.60 Hz. What is the value of m?
 
-
+$$
+f = \dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}}\longrightarrow mf^2 = \text{constant}\Longrightarrow m (0.83)^2 = (m + 0.78)(0.60)^2\Longrightarrow \boxed{m = 0.85\;\mathrm{kg}}
+$$
 
 ### 8
 
->  
+>  A vertical spring with spring stiffness constant 305 N/m oscillates with an amplitude of 28.0 cm when 0.235 kg hangs from it. The mass passes through the equilibrium point (y = 0) with positive velocity at t = 0. (a) What equation describes this motion as a function of time? (b) At what times will the spring be longest and shortest?
+
+#### Part A
+
+$$
+\omega = \sqrt{\frac{k}{m}} = 36.026\;\mathrm{rad/s}\\
+y(t) = (0.280)\left[\left(\sin(36.026\;\dfrac{\text{rad}}{\text{s}}\right)t\right]
+$$
+
 
 
 
