@@ -340,14 +340,75 @@ $I = MR^2 = 1.1\;\mathrm{kg}\cdot (0.67\;\mathrm{m})^2 = \boxed{0.49\underline{4
 
 > The forearm accelerates a 3.6-kg ball at $7.0\;\mathrm{m/s^2}$ by means of the triceps muscle, as shown. Calculate (a) the torque needed, and (b) the force that must be exerted by the triceps muscle. Ignore the mass of the arm.
 
+$$
+F = ma = 3.6\cdot 7.0 = 25.2\;\mathrm{N}\\
+\tau = F\cdot d = 25.2\cdot 0.31 = 
+$$
+
 
 
 ### 36
+
+>  
 
 
 
 ### 39
 
+>  
 
 
-### 47, 49, 55, 59, 62, 67, 73, 87, 93
+
+### 47
+
+>  
+
+
+
+### 49
+
+>  
+
+
+
+### 55
+
+>  
+
+
+
+### 59
+
+>  
+
+
+
+### 62
+
+>  
+
+
+
+### 67
+
+>  
+
+
+
+### 73
+
+>  
+
+
+
+### 87
+
+>  
+
+
+
+### 93
+
+>  
+
+
