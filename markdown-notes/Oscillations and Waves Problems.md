@@ -79,14 +79,20 @@ $$
 
 $$
 \omega = \sqrt{\frac{k}{m}} = 36.026\;\mathrm{rad/s}\\
-y(t) = (0.280)\left[\left(\sin(36.026\;\dfrac{\text{rad}}{\text{s}}\right)t\right]
+y(t) = (0.280)\sin\left[\left(36.026\;\dfrac{\text{rad}}{\text{s}}\right)t\right]
 $$
 
 #### Part B
 
-
+We are looking for the maximum and the minimum of the sine function from Part A. The sine function is maximized and minimized at $\frac{\pi}{2}$ and $\frac{3\pi}{2}$, respectively. So, the respective times are $4.36\times 10^{-2}\;\mathrm{s}$ and $1.31\times 10^{-1}\;\mathrm{s}$ with each occurring at 0.174-second intervals.
 
 ### 9
 
->  
+>  <img src="../images/Problem%2011-9.png" style="zoom:50%;float:left" /> The figure shows two examples of SHM, labeled A and B. For each, what is (a) the    amplitude, (b) frequency, and (c) period?  
+
+| Graph A                                                      | Graph B                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Amplitude**: 2.5 meters <br />**Frequency**: 0.25 Hz <br />**Period**: 4.0 seconds | **Amplitude**: 3.5 meters <br />**Frequency**: 0.5 Hz <br />**Period**: 3.0 seconds |
+
+## 
 
