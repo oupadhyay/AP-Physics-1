@@ -415,23 +415,35 @@ $$
 
 >  A 1.80-m-long pole is balanced vertically with its tip on the ground. It starts to fall and its lower end does not slip. What will be the speed of the upper end of the pole just before it hits the ground? [Hint: Use conservation of energy.]
 
-$I = \dfrac13 MR^2$
+Since $I = \dfrac13 M\ell^2$, $\omega = v/\ell$, and $PE_0 = KE_1$,
+$$
+mgh = \dfrac12I\omega^2 \Longrightarrow mg\ell/2 = \dfrac12\left(\dfrac14m\ell^2\right)\left(\dfrac{\nu}{\ell}\right)^2 \\
+\nu = 2\sqrt{g\ell} = \boxed{8.4\;\mathrm{m/s^2}}
+$$
 
 ### 62
 
->  
+>  A person stands, hands at his side, on a platform that is rotating at a rate of 0.90 rev/s. If he raises his arms to a horizontal position, Fig. 8–55, the speed of rotation decreases to 0.60 rev/s. (a) Why? (b) By what factor has his moment of inertia changed?
 
+#### Part A
 
+The speed of rotation decreases because the moment of inertia increases as the mas is spread out, on average, further from the center of rotation when a person raises his arms to a horizontal position. Since the mass of his arms are further, his rotational speed decreases($\omega = v/r$)
+
+#### Part B
+
+$$
+L_0 = L_1 \longrightarrow I_0\omega_0 = I_1\omega_1 \Longrightarrow \dfrac{I_1}{I_0} = \textsf{Inertia Factor}=\dfrac{\omega_0}{\omega_1} = \dfrac{0.90\;\mathrm{rev/s}}{0.60\;\mathrm{rev/s}} = \boxed{1.5}
+$$
 
 ### 67
 
->  
+>  A person of mass 75 kg stands at the center of a rotating merry-go-round platform of radius 3.0 m and moment of inertia 820 kgm 2 . The platform rotates without friction with angular velocity 0.95 rad兾s. The person walks radially to the edge of the platform. (a) Calculate the angular velocity when the person reaches the edge. (b) Calculate the rotational kinetic energy of the system of platform platform plus person before and after the person’s walk.
 
 
 
 ### 73
 
->  
+>  An asteroid of mass 1.0 * 10 5 kg, traveling at a speed of 35 km兾s relative to the Earth, hits the Earth at the equator tangentially, in the direction of Earth’s rotation, and is embedded there. Use angular momentum to estimate the percent change in the angular speed of the Earth as a result of the collision.
 
 
 
