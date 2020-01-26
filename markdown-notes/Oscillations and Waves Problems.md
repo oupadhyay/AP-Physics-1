@@ -82,6 +82,7 @@ $$
 y(t) = (0.280)\left[\left(\sin(36.026\;\dfrac{\text{rad}}{\text{s}}\right)t\right]
 $$
 
+#### Part B
 
 
 
