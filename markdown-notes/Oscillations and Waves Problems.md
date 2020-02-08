@@ -90,9 +90,28 @@ We are looking for the maximum and the minimum of the sine function from Part A.
 
 >  <img src="../images/Problem%2011-9.png" style="zoom:50%;float:left" /> The figure shows two examples of SHM, labeled A and B. For each, what is (a) the    amplitude, (b) frequency, and (c) period?  
 
+
+
+
+
+
+
 | Graph A                                                      | Graph B                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Amplitude**: 2.5 meters <br />**Frequency**: 0.25 Hz <br />**Period**: 4.0 seconds | **Amplitude**: 3.5 meters <br />**Frequency**: 0.5 Hz <br />**Period**: 3.0 seconds |
 
-## 
+### 10
 
+$f = \dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}}\Longrightarrow k = 4\pi^2 mf^2 = 18.476\;\mathrm{N/m} = \boxed{18\;\mathrm{N/m}}$
+
+$f = \dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}} = 1.293\;\mathrm{Hz} \approx \boxed{1.3\;\mathrm{Hz}}$
+
+### 11
+
+$E_{\text{pot}} = \dfrac12 E_{\text{tot}} \longrightarrow \dfrac12 kx^2 = \dfrac12 \left(\dfrac12 kA^2\right) \Longrightarrow \boxed{x = \pm \dfrac{1}{\sqrt2} A}$
+
+### 12 
+
+$\sum F_{\text{vert}} = kx_0 - mg \Longrightarrow T = 2\pi\sqrt{\dfrac{m}{k}} = 2\pi\sqrt{\dfrac{m}{(mg/x_0)}} = 2\pi \sqrt{\dfrac{x_0}{g}} = \boxed{0.75\;\mathrm{s}}$
+
+## Homework 2: Do all Questions + Problems 22-26 + 33-34
