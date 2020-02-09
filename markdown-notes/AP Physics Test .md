@@ -68,26 +68,100 @@ $(t_1 + t_2) + t_3 = 43.654 s$
 
 ### 3
 
+a) 
 
+$\Delta y = v_0t + \dfrac12 at^2$
+
+$1520 = 9.8t^2$
+
+$t = 12.45 s$
+
+b + c)
+
+$\Delta x = v_0 t$
+
+$\Delta x = 4.0\cdot 12.45 \approx 50\;\mathrm{m}$
 
 ### 4
 
+$t = 27/35 = 0.77 s $
 
+$y = \dfrac12 \cdot 9.8 \cdot 0.77^2 = -2.91$
+
+$\theta = \tan^{-1} (\dfrac{-2.91}{27}) = 6.15^\circ$
 
 ### 5
 
-
+The 45 deg slope means (assuming ideal conditions like no air resistance) the rock will travel the same distance d horizontally that it does vertically in time t. Now you know d = 15 t horizontally. To find the relationship between d and t vertically, use acceleration due to gravity.
+$d = v_0 t + (1/2)gt^2$ where $u = \textsf{initial vertical velocity} = 0$:
+So $d = 15 t = (g/2) t^2 \Longrightarrow t = 30/g\textsf{  and  }d = 2/g$
 
 ### 6
 
+a) 
 
+$v^2 = v_0^2 + 2a\Delta y$
+$v = \sqrt{2\cdot 9.8\cdot 3} = 7.67\;\mathrm{m/s}$
+
+b)
+
+$a = \dfrac{7.67^2}{2\cdot 0.5} = -58.8\;\mathrm{m/s^2}$
+
+$F = mg + ma = 60(9.8+58.8) = 4116\;\mathrm{N}$
 
 ### 7
 
+a)
 
+Take T be the tension of string and a be the acceleration on whole system
+
+$5 \times 10 - T = 5a$
+$T = 13a$
+
+$5 \times 10 = (13 + 5) a$
+$a= 2.78m/s^2 $
+
+b) Taking the x-direction as the positive direction
+applying $s=ut+at^2/2$
+$1.250=0+2.78t^2/2$
+$t = 0.948 s$
+
+c) $1(g)/100 = 1(10)/100$
+Let the mass of A be x kg
+$(x + 1) ( 10/100) = 1-x$
+$x=0.980$
 
 ### 8
 
+(a) Cannot be done. :disappointed:
 
+(b)
+
+$a = \dfrac{F}{m_A + m_B + m_C}$
+
+(c)
+
+$F_A = \dfrac{F\cdot m_A}{m_A + m_B + m_C};\;\; F_B = \dfrac{F\cdot m_B}{m_A + m_B + m_C};\;\; F_C = \dfrac{F\cdot m_C}{m_A + m_B + m_C}$
+
+(d)
+
+$F_{CB} = F_{C net} = \dfrac{F\cdot m_C}{m_A + m_B + m_C} = -F_{BC}$
+
+$F_{AB} = F - F_A = \dfrac{(m_B + m_C)F}{m_A + m_B + m_C} = -F_{BA}$
+
+$a = 2.67\;\mathrm{m/s^2}$
+
+$F_{net} = 32.0$
+
+$F_{AB} = 64.0$
+
+$F_{BC} = 32.0$
+
+This makes sense as the forces decrease as they we go to the right. 
 
 ### 9
+
+\Delta x = \dfrac12 at^2
+
+
+
