@@ -96,18 +96,20 @@ The 45 deg slope means (assuming ideal conditions like no air resistance) the ro
 $d = v_0 t + (1/2)gt^2$ where $u = \textsf{initial vertical velocity} = 0$:
 So $d = 15 t = (g/2) t^2 \Longrightarrow t = 30/g\textsf{  and  }d = 450/g$
 
+$t = 3.1\;\mathrm{s}$
+
 ### 6
 
 a) 
 
 $v^2 = v_0^2 + 2a\Delta y$
-$v = \sqrt{2\cdot 9.8\cdot 3} = 7.67\;\mathrm{m/s}$
+$v = \sqrt{2\cdot 9.8\cdot 2.8} = 7.41\;\mathrm{m/s}$
 
 b)
 
-$a = \dfrac{7.67^2}{2\cdot 0.5} = -58.8\;\mathrm{m/s^2}$
+$a = \dfrac{7.41^2}{2\cdot 0.7} = -39.22\;\mathrm{m/s^2}$
 
-$F = mg + ma = 60(9.8+58.8) = 4116\;\mathrm{N}$
+$F = mg + ma = 42(9.8+39.22) = 2058.8\;\mathrm{N}$
 
 ### 7
 
@@ -119,17 +121,17 @@ $5 \times 10 - T = 5a$
 $T = 13a$
 
 $5 \times 10 = (13 + 5) a$
-$a= 2.78m/s^2 $
+$a= 2.72\;\mathrm{m/s^2} $
 
 b) Taking the x-direction as the positive direction
 applying $s=ut+at^2/2$
-$1.250=0+2.78t^2/2$
-$t = 0.948 s$
+$1.250=0+2.72t^2/2$
+$t = 0.958 s$
 
 c) $1(g)/100 = 1(10)/100$
 Let the mass of A be x kg
 $(x + 1) ( 10/100) = 1-x$
-$x=0.980$
+$x=98.88888\;\mathrm{kg}$
 
 ### 8
 
@@ -173,7 +175,7 @@ $\mu g = a \Longrightarrow \mu = a/g = 1.42$
 
 $F_{net} = F - F_{fr} = 650 - (0.18\cdot 190\cdot 9.8) = 314.84\;\mathrm{N}$
 
-a = \dfrac{F_{net}}{m} = 
+$a = \dfrac{F_{net}}{m} = 1.65$
 
 ### 11
 
