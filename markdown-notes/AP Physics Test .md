@@ -173,9 +173,23 @@ $\mu g = a \Longrightarrow \mu = a/g = 1.42$
 
 ### 10
 
+a)
+
 $F_{net} = F - F_{fr} = 650 - (0.18\cdot 190\cdot 9.8) = 314.84\;\mathrm{N}$
 
 $a = \dfrac{F_{net}}{m} = 1.65$
+
+b)
+
+$F_{net} = 125\cdot 1.65 = 206.25\;\mathrm{N}$
+
+$F_{fr} = 0.18 \cdot 125\cdot 9.8 = 220.5$
+
+$F = F_{net} + F_{fr} = 426.75\;\mathrm{N}$
+
+c)
+
+$F + F_{fr} = 107.25 + 114.66 = 221.91$
 
 ### 11
 
