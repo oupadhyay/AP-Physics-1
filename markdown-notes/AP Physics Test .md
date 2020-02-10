@@ -161,7 +161,19 @@ This makes sense as the forces decrease as they we go to the right.
 
 ### 9
 
-\Delta x = \dfrac12 at^2
+$\Delta x = \dfrac12 at^2$
 
+$1000 = \dfrac12 a(144) \Longrightarrow a = 13.888$
 
+$F_{fr} = \mu mg = ma$
+
+$\mu g = a \Longrightarrow \mu = a/g = 1.42$
+
+### 10
+
+$F_{net} = F - F_{fr} = 650 - (0.18\cdot 190\cdot 9.8) = 314.84\;\mathrm{N}$
+
+a = \dfrac{F_{net}}{m} = 
+
+### 11
 
