@@ -6,9 +6,9 @@
 
 $\Delta x = v_0 t + \dfrac12 at^2$
 
-$135t + 135 = 95 + 95t + 1.3t^2$
+$37.5t + 37.5 = 26.389+ 26.3889t + 1.3t^2$
 
-$t = 31.74\;\mathrm{s}$
+$t = 10.45\;\mathrm{s}$
 
 ### 2
 
@@ -32,7 +32,7 @@ c)
 
 $v^2 = v_0^2 + 2a\Delta y$
 
-$$-4959.962 = 2(-9.81)\Delta y$
+$-4959.962 = 2(-9.81)\Delta y$
 
 $y_2 = 252.8$
 
@@ -94,7 +94,7 @@ $\theta = \tan^{-1} (\dfrac{-2.91}{27}) = 6.15^\circ$
 
 The 45 deg slope means (assuming ideal conditions like no air resistance) the rock will travel the same distance d horizontally that it does vertically in time t. Now you know d = 15 t horizontally. To find the relationship between d and t vertically, use acceleration due to gravity.
 $d = v_0 t + (1/2)gt^2$ where $u = \textsf{initial vertical velocity} = 0$:
-So $d = 15 t = (g/2) t^2 \Longrightarrow t = 30/g\textsf{  and  }d = 2/g$
+So $d = 15 t = (g/2) t^2 \Longrightarrow t = 30/g\textsf{  and  }d = 450/g$
 
 ### 6
 
