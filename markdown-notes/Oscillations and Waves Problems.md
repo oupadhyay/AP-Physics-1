@@ -1,6 +1,6 @@
 # Oscillations and Waves Problems
 
-## Homework 1: Pg. 322 # 1-9
+## Homework 1: # 1 - 9
 
 ### 1
 
@@ -90,28 +90,70 @@ We are looking for the maximum and the minimum of the sine function from Part A.
 
 >  <img src="../images/Problem%2011-9.png" style="zoom:50%;float:left" /> The figure shows two examples of SHM, labeled A and B. For each, what is (a) the    amplitude, (b) frequency, and (c) period?  
 
-
-
-
-
-
-
 | Graph A                                                      | Graph B                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Amplitude**: 2.5 meters <br />**Frequency**: 0.25 Hz <br />**Period**: 4.0 seconds | **Amplitude**: 3.5 meters <br />**Frequency**: 0.5 Hz <br />**Period**: 3.0 seconds |
 
 ### 10
 
-$f = \dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}}\Longrightarrow k = 4\pi^2 mf^2 = 18.476\;\mathrm{N/m} = \boxed{18\;\mathrm{N/m}}$
+$$
+f = \dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}}\Longrightarrow k = 4\pi^2 mf^2 = 18.476\;\mathrm{N/m} = \boxed{18\;\mathrm{N/m}}
+$$
 
-$f = \dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}} = 1.293\;\mathrm{Hz} \approx \boxed{1.3\;\mathrm{Hz}}$
+$$
+f = \dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}} = 1.293\;\mathrm{Hz} \approx \boxed{1.3\;\mathrm{Hz}}
+$$
 
 ### 11
 
-$E_{\text{pot}} = \dfrac12 E_{\text{tot}} \longrightarrow \dfrac12 kx^2 = \dfrac12 \left(\dfrac12 kA^2\right) \Longrightarrow \boxed{x = \pm \dfrac{1}{\sqrt2} A}$
+$$
+E_{\text{pot}} = \dfrac12 E_{\text{tot}} \longrightarrow \dfrac12 kx^2 = \dfrac12 \left(\dfrac12 kA^2\right) \Longrightarrow \boxed{x = \pm \dfrac{1}{\sqrt2} A}
+$$
 
-### 12 
+### 12
 
-$\sum F_{\text{vert}} = kx_0 - mg \Longrightarrow T = 2\pi\sqrt{\dfrac{m}{k}} = 2\pi\sqrt{\dfrac{m}{(mg/x_0)}} = 2\pi \sqrt{\dfrac{x_0}{g}} = \boxed{0.75\;\mathrm{s}}$
+$$
+\sum F_{\text{vert}} = kx_0 - mg \Longrightarrow T = 2\pi\sqrt{\dfrac{m}{k}} = 2\pi\sqrt{\dfrac{m}{(mg/x_0)}} = 2\pi \sqrt{\dfrac{x_0}{g}} = \boxed{0.75\;\mathrm{s}}
+$$
 
-## Homework 2: Do all Questions + Problems 22-26 + 33-34
+## Homework 2: Questions # 4-27
+
+### Questions
+
+4. > If a pendulum clock is accurate at sea level, will it gain or lose time when taken to high altitude? Why?
+
+$$
+T = 2\pi \sqrt{\dfrac{\ell}{g}}\\
+\textsf{Therefore, as the altitude increases, gravity's force decreases. This means an overall increase in the period.}
+$$
+
+5. > A tire swing hanging from a branch reaches nearly to the ground. How could you estimate the height of the branch using only a stopwatch?
+
+$$
+\textsf{Since the tire almost reaches the ground, }h = \ell \textsf{ and one can find the period of the tire as }T\textsf{. With this,} \\
+\begin{align*}
+T &= 2\pi\sqrt{\dfrac{h}{g}}\\
+\left(\dfrac{T}{2\pi}\right)^2 &= \dfrac{h}{g}\\
+h &= \boxed{\dfrac{g\cdot T^2}{4\pi^2}}
+\end{align*}
+$$
+
+6. > For a simple harmonic oscillator, when (if ever) are the displacement and velocity vectors in the same direction? When are the displacement and acceleration vectors in the same direction?
+
+$$
+\textsf{The displacement and velocity vectors are in the same direction when the pendulum is at its equilibrium position.}\\ \textsf{The acceleration and displacement vectors are never in the same direction. }
+$$
+
+7. > Two equal masses are attached to separate identical springs next to one another. One mass is pulled so its spring stretches 40 cm and the other is pulled so its spring stretches only 20 cm. The masses are released simultaneously. Which mass reaches the equilibrium point first?
+
+   They both reach at the same time as the period of the simple harmonic oscillator is dependent only on the mass and the spring constant, both of which are equal in this situation.
+
+8. > What is the approximate period of your walking step?
+
+
+
+## Homework 3: Pg. 323 # 10 - 20
+
+
+
+## Homework 4: Pg. 323 # 20 - 26 + 33 - 34
