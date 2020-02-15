@@ -146,33 +146,51 @@ $$
 
 7. > Two equal masses are attached to separate identical springs next to one another. One mass is pulled so its spring stretches 40 cm and the other is pulled so its spring stretches only 20 cm. The masses are released simultaneously. Which mass reaches the equilibrium point first?
 
-   They both reach at the same time as the period of the simple harmonic oscillator is dependent only on the mass and the spring constant, both of which are equal in this situation.
+$$
+\textsf{They both reach at the same time as the period of the simple harmonic oscillator is dependent only on the mass}\\\textsf{ and the spring constant, both of which are equal in this situation.}
+$$
 
 8. > What is the approximate period of your walking step?
 
-   It approximately 1 second.
+$$
+\textsf{It is approximately 1 second.}
+$$
 
 9. > What happens to the period of a playground swing if you rise up from sitting to a standing position?
 
-   The moment of inertia decreases, allowing for a greater mass closer to the center of rotation, shortening the period significantly.
+$$
+\textsf{The moment of inertia decreases, allowing for a greater mass closer to the center of rotation,}\\\textsf{ shortening the period significantly.
+$$
 
 10. > Why can you make water slosh back and forth in a pan only if you shake the pan at a certain frequency?
 
-    You need to match the period, and therefore frequency, of the water as it sloshes back and forth to create this motion in the first place. The water then is in resonance, or in a standing wave pattern, and the amplitude of oscillation gets large. That natural frequency is determined in part by the size of the pan—smaller pans will slosh at higher frequencies, corresponding to shorter wavelengths for the standing waves. 
+$$
+\textsf{You need to match the period of the water as it sloshes back and forth}\\\textsf{ to create this motion in the first place. The water then is in resonance,}\\\textsf{ or in a standing wave pattern, and the amplitude of oscillation }\\\textsf{ gets large. That natural frequency is determined in part }\\\textsf{by the size of the pan—smaller pans will slosh at higher frequencies,}\\\textsf{ corresponding to shorter wavelengths for the standing waves.}
+$$
 
 11. > Is the frequency of a simple periodic wave equal to the frequency of its source? Why or why not?
 
-    The frequency of a simple periodic wave is equal to the frequency of its source. The wave is created by the source moving the wave medium that is in contact with the source. If you have one end of a taut string in your hand, and you move your hand with a frequency of 2 Hz, then the end of the string in your hand will be moving at 2 Hz, because it is in contact with your hand. Then those parts of the medium that you are moving exert forces on adjacent parts of the medium and cause them to oscillate. Since those two portions of the medium stay in contact with each other, they also must be moving with the same frequency.
+$$
+\textsf{The frequency of a simple periodic wave is equal to the frequency of its source.}\\\textsf{ The wave is created by the source moving the wave medium that is in contact with the source.}\\\textsf{ If you have one end of a taut string in your hand, and you move your hand with a frequency of 2 Hz,}\\\textsf{ then the end of the string in your hand will be moving at 2 Hz, because it is in contact with your hand.}\\\textsf{ Then those parts of the medium that you are moving exert forces on adjacent parts of the medium}\\\textsf{ and cause them to oscillate. Since those two portions of the medium stay in contact with each other,}\\\textsf{ they also must be moving with the same frequency.}
+$$
 
 12. > Explain the difference between the speed of a transverse wave and the speed of a tiny piece of the cord.
 
-    The speed of the transverse wave is the speed at which the wave disturbance moves along the cord. For a uniform cord, that speed is constant and depends on the tension in the cord and the mass density of the cord. The speed of a tiny piece of the cord is how fast the piece of cord moves perpendicularly to the cord as the disturbance passes by
+$$
+\textsf{The speed of the transverse wave is the speed at which the wave disturbance moves along the cord.}\\\textsf{ For a uniform cord, that speed is constant and depends on the tension in the cord}\\\textsf{ and the mass density of the cord. The speed of a tiny piece of the cord is how fast}\\\textsf{ the piece of cord moves perpendicularly to the cord as the disturbance passes by.}
+$$
 
 13. > What kind of waves do you think will travel along a horizontal metal rod if you strike its end (a) vertically from above and (b) horizontally parallel to its length?
 
-    
+    (a) $\textsf{Transverse}$
+
+    (b) $\textsf{Compression}$
 
 14. > Since the density of air decreases with an increase in temperature, but the bulk modulus B is nearly independent of temperature, how would you expect the speed of sound waves in air to vary with temperature?
+
+$$
+\textsf{The speed of waves in a gas is given by υ = B / ρ . A decrease in the density due to a temperature increase}\\\textsf{ therefore leads to a higher speed of sound. We expect the speed of sound to increase as temperature increases.}
+$$
 
 15. > If a rope has a free end, a pulse sent down the rope behaves differently on reflection than if the rope has that end fixed in position. What is this difference, and why does it occur?
 
