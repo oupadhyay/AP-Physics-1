@@ -47,3 +47,4 @@ f' &= f\left(1 + \dfrac{v_{\text{observed}}}{v_{\text{sound}}}\right) \tag*{$\te
 f' &= f\left(1 - \dfrac{v_{\text{observed}}}{v_{\text{sound}}}\right) \tag*{$\textsf{[observer moving away from stationary source]}$}
 \end{align*}
 $$
+
