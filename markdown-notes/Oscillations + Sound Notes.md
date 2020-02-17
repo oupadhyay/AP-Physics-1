@@ -2,7 +2,7 @@
 
 ## Equations
 
-- $I = A^2$
+- $I \propto A^2$
 - $I = \dfrac{P}{4\pi r^2}$
 - $A = \sqrt{\dfrac{P}{4\pi r^2}}$
 - $E = \dfrac12 kA^2 =  2\pi^2 m f^2 A^2$
@@ -17,8 +17,8 @@
 - an **octave** = doubling of frequency
 - The pitch is normally determined by the lowest resonant frequency, the **fundamental**, which corresponds to nodes occurring only at the ends
   - $f_n = nf_1 = n\dfrac{v}{\lambda} = n \dfrac{v}{2\ell}$
-- The strings on an instrument sound differnet because they have different densities.
-  - $\mu = m/\ell$
+- The strings on an instrument sound different because they have different densities.
+  - $\mu \textsf{ (density)} = m/\ell$
   - $v = \sqrt{F_T / \mu}$
 - <img src="../images/OpenTubeHarmonics.png" style="zoom:70%;" />
 - <img src="../images/OneEndClosedTubeHarmonics.png" style="zoom:70%;" />
@@ -44,7 +44,9 @@ f' &= \dfrac{f}{1 - \dfrac{v_{\text{source}}}{v_{\text{sound}}}}
 f' &= \dfrac{f}{1 - \dfrac{v_{\text{source}}}{v_{\text{sound}}}} 
 \tag*{$\mathbf{\textsf{[source moving away from stationary observer]}}$} \\
 f' &= f\left(1 + \dfrac{v_{\text{observed}}}{v_{\text{sound}}}\right) \tag*{$\textsf{[observer moving toward stationary source]}$} \\
-f' &= f\left(1 - \dfrac{v_{\text{observed}}}{v_{\text{sound}}}\right) \tag*{$\textsf{[observer moving away from stationary source]}$}
+f' &= f\left(1 - \dfrac{v_{\text{observed}}}{v_{\text{sound}}}\right) \tag*{$\textsf{[observer moving away from stationary source]}$} \\
+f' &=  f\left(\dfrac{v+v_0}{v - v_0}\right) \tag*{$\textsf{[source moving towards the stationary observer]}$} \\
+f' &=  f\left(\dfrac{v-v_0}{v + v_0}\right) \tag*{$\textsf{[source moving away the stationary observer]}$} \\
 \end{align*}
 $$
 
