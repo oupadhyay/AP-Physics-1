@@ -2,7 +2,7 @@
 
 ## Homeworks
 
-### Pg. 192 # 1-10 
+### Pg. 192 # 1-10
 
 #### 1
 
@@ -156,7 +156,7 @@ $v_B = 2.5 + 2.5 =\boxed{5.0\;\mathrm{m/s}}$
 
 > Two billiard balls of equal mass undergo a perfectly elastic head-on collision. If one ball’s initial speed was 2.00 m/s, and the other’s was 3.60 m/s in the opposite direction, what will be their speeds and directions after the collision? 
 
-Since the balls have equal mass, their directions and speed would swap ie. v_A = $\boxed{-3.60\;\mathrm{m/s}}$ and $v_B = \boxed{2.00\;\mathrm{m/s}}$
+Since the balls have equal mass, their directions and speed would swap ie. $v_A = \boxed{-3.60\;\mathrm{m/s}}$ and $v_B = \boxed{2.00\;\mathrm{m/s}}$
 
 #### 29
 
@@ -171,7 +171,7 @@ $\dfrac{KE'_B}{KE_A} = \dfrac{3\cdot (\dfrac12)^2}{1\cdot 1} = \boxed{\dfrac34}$
 
 >  A ball of mass $m$ makes a head-on elastic collision with a second ball (at rest) and rebounds with a speed equal to 0.450 its original speed. What is the mass of the second ball? 
 
-$v_B' = v_A + v_A' = 0..550 v_A$
+$v_B' = v_A + v_A' = 0.550 v_A$
 
 $m_Av_A = m_Av_A' + m_Bv_B' = m_A(-0.450v_A) + m_B(0.550v_A)$
 $m_B = \boxed{2.64m_A}$
