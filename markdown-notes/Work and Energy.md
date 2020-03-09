@@ -138,6 +138,15 @@ $KE_0 + PE_0 = \dfrac12(1200)(23.6)^2 + 0 \approx 334000$
 
 $334000 = PE_1 + KE_1 = \dfrac12k(2.2)^2 \Longrightarrow \boxed{k = 138000}$
 
+#### 43
+
+> An engineer is designing a spring to be placed at the
+> bottom of an elevator shaft. If the elevator cable breaks
+> when the elevator is at a height h above the top of the
+> spring, calculate the value that the spring constant k should have so that passengers undergo an acceleration of no more than 5.0 g when brought to rest. Let M be the total mass of the elevator and passengers.
+
+??
+
 #### 44
 
 >  A block of mass m is attached to the end of a spring (spring stiffness constant k). The mass is given an initial displacement from equilibrium, and an initial speed Ignoring friction and the mass of the spring, use energy methods to find its maximum speed, and its maximum stretch from equilibrium in terms of the given quantities. 
