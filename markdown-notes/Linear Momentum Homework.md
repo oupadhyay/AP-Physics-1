@@ -285,6 +285,16 @@ $$
 \theta = \tan^{-1} \left(\dfrac{(\rho_{\textsf{nucleus}})_y}{(\rho_{\textsf{nucleus}})_x}\right) = \tan^{-1} \left(\dfrac{(\rho_{\textsf{electron}})_y}{(\rho_{\textsf{neutrino}})_x}\right) = \boxed{57^\circ}
 $$
 
+#### 54
+
+> Determine the CM of the uniform thin L-shaped construction brace shown in figure. 
+
+Let the total mass be M. Then we can find that the $m_{\text{h}} = \dfrac{2.06}{2.06 + 1.48}\cdot M = 0.582M$ and that the $m_{\text{v}} = \dfrac{1.48}{2.06 + 1.48}\cdot M = 0.418M.$  So,
+$$
+x_{CM} = \dfrac{m_hx_h + m_vx_v}{m_h + m_v} = \dfrac{0.582M\cdot 1.03 + 0.418M\cdot 0.10}{M} = \boxed{1.4\;\mathrm{m}}  \\
+y_{CM} = \dfrac{m_hy_h + m_vy_v}{m_h + m_v} = \dfrac{0.582M\cdot 0.1 + 0.418M\cdot (-0.74)}{M} = \boxed{-0.25\;\mathrm{m}}\\
+$$
+
 #### 55
 
 > A uniform circular plate of radius 2R has a circular hole of radius R cut out of it. The center of the smaller circle is a distance 0.80R from the center C of the larger circle, Fig. 7–41. What is the position of the center of mass of the plate? 
