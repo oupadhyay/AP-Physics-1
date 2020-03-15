@@ -31,7 +31,7 @@ $a_R = \dfrac{v^2}{r} \Longrightarrow r = \dfrac{270^2}{8\cdot 9.8} = 929.85\;\m
 
 > If a curve with a radius of 95 m is properly banked for a car traveling 65 km/h, what must be the coefficient of static friction for a car not to skid when traveling at 95 km/h?
 
-From the circular motion chapter, we have 
+From the circular motion chapter[^1], we have 
 
 [^1]: See example 5-7
 
@@ -57,7 +57,7 @@ $$
 
 ##### Part A
 
-a_R = a\sin\theta = \dfrac{v^2}{r}\Longrightarrow v= \sqrt{ar\sin\theta} = \boxed{0.930\;mathrm{m/s}}
+$a_R = a\sin\theta = \dfrac{v^2}{r}\Longrightarrow v= \sqrt{ar\sin\theta} = \boxed{0.930\;mathrm{m/s}}$
 
 ##### Part B
 
