@@ -5,14 +5,17 @@
 @import "night/codeblock.dark.css";
 @import "night/sourcemode.dark.css";
 
-/* vietnamese */
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(ash/Montserrat-v.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+@media print, (overflow-block: paged) or (overflow-block: optional-paged)
+{
+  hr
+  {
+    page-break-after: always; /* CSS 2 */
+         break-after: region; /* CSS 3+ */
+    /* minimal layout disruption: */
+    height: 0.1mm; visibility: hidden;
+  }
 }
+
 /* latin-ext */
 @font-face {
   font-family: 'Montserrat';
