@@ -33,7 +33,6 @@ $a_R = \dfrac{v^2}{r} \Longrightarrow r = \dfrac{270^2}{8\cdot 9.8} = 929.85\;\m
 
 From the circular motion chapter[^1], we have 
 
-[^1]: See example 5-7
 
 $$
 \theta = \arctan\left(\dfrac{v^2}{rg}\right) = \arctan\left( \dfrac{\left(\left(65 \;\mathrm{\dfrac{km}{hr}}\right) \times \left(\dfrac{1000\;\mathrm{m/km}}{3600\;\mathrm{s/hr}} \right) \right) ^2}{(95\;\mathrm{m})(9.8\;\mathrm{m/s^2})}\right) = 19.3^\circ
@@ -80,6 +79,10 @@ $$
 ### 72
 
 > 
+
+### Footnotes
+
+[^1]: See example 5-7
 
 ## Chapter 6: Work + Energy
 
