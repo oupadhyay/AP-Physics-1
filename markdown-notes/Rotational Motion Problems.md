@@ -47,7 +47,7 @@ $\omega = \omega_0 + \alpha t \Longrightarrow t = \dfrac{\Delta \omega}{\alpha} 
 $\alpha = \dfrac{\Delta \omega}{\Delta t} = \dfrac{120\;\mathrm{rev/min}}{6.8\;\mathrm{s}} \left(\dfrac{1\;\mathrm{min}}{60\;\mathrm{sec}}\right) = 0.294\;\mathrm{rev/s^2}$
 
 $\theta = \omega_0t + \dfrac12 \alpha t^2 = \left(240\;\mathrm{\dfrac{rev}{min}}\right)(6.8\;\mathrm{sec})\left(\dfrac{1\;\mathrm{min}}{60\;\mathrm{sec}}\right) +\dfrac12 \left(0.294\;\mathrm{\dfrac{rev}{s^2}}\right) \left(6.8\;\mathrm{s}\right)^2 = 34\;\mathrm{rev} $
-$34\cdot C = 34\pi(31) = \boxed{33.1\;\mathrm{m}}$
+$34\cdot C = 34\cdot \pi(0.31) = \boxed{33.1\;\mathrm{m}}$
 
 ### 23
 
@@ -119,19 +119,7 @@ $I = \dfrac25 MR^2 = \boxed{1.81\;\mathrm{kg\cdot m^2}}$
 $\alpha = \omega / t$
 $\tau = I\alpha = \left(\dfrac12MR_0^2\right)\left(\dfrac{\omega}{t}\right) = \dfrac{31000\cdot (7.0^2)\cdot 0.68}{2(34)} \approx \boxed{15,200\;\mathrm{m\cdot N}}$
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+- - - 
 
 ## Homework 2: Pg. 223 # 34, 37, 38, 39, 41, 43, 46 ,48, 50, 52, 54, 56
 
