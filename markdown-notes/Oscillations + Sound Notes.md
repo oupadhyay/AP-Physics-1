@@ -1,11 +1,21 @@
- # Oscillations and Waves Notes
+# Oscillations and Waves Notes
 
 ## Equations
 
-- $I \propto A^2$
+- $F = -kx$
+- $f = \dfrac{1}{T}$
+- $T = 2\pi\sqrt{\dfrac{m}k}$
+- $E = \dfrac12 mv^2 + \dfrac12 kx^2$
+- $T = 2\pi\sqrt{\dfrac{l}g}$
+- $v_{max} = A\sqrt{k}{m}$
+- $v = v_{max}\sqrt{1-\left(\dfrac{x}{A}\right)^2}$
+- $v = \lambda f$
+- $I \propto A^2 \;\;\;//\;\;\; I\propto f^2 \;\;\;//\;\;\; I\propto \dfrac{1}{r^2}$
 - $I = \dfrac{P}{4\pi r^2}$
 - $A = \sqrt{\dfrac{P}{4\pi r^2}}$
 - $E = \dfrac12 kA^2 =  2\pi^2 m f^2 A^2$
+- $y = A\sin\left(\left(\dfrac{2\pi}{\lambda}\right)\left(x\pm vt\right)\right)$
+- Diffraction: $\theta = \lambda / \ell$
 
 # Sound Notes
 

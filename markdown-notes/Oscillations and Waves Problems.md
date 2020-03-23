@@ -92,7 +92,7 @@ We are looking for the maximum and the minimum of the sine function from Part A.
 
 | Graph A                                                      | Graph B                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Amplitude**: 2.5 meters <br />**Frequency**: 0.25 Hz <br />**Period**: 4.0 seconds | **Amplitude**: 3.5 meters <br />**Frequency**: 0.5 Hz <br />**Period**: 3.0 seconds |
+| **Amplitude**: 2.5 meters <br />**Frequency**: 0.25 Hz <br />**Period**: 4.0 seconds | **Amplitude**: 3.5 meters <br />**Frequency**: 0.5 Hz <br />**Period**: 2.0 seconds |
 
 ### 10
 
@@ -159,7 +159,7 @@ $$
 9. > What happens to the period of a playground swing if you rise up from sitting to a standing position?
 
 $$
-\textsf{The moment of inertia decreases, allowing for a greater mass closer to the center of rotation,}\\\textsf{ shortening the period significantly.
+\textsf{The moment of inertia decreases, allowing for a greater mass closer to the center of rotation,}\\\textsf{ shortening the period significantly.}
 $$
 
 10. > Why can you make water slosh back and forth in a pan only if you shake the pan at a certain frequency?

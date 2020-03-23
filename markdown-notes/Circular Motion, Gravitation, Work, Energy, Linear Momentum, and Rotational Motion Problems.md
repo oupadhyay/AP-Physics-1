@@ -29,17 +29,14 @@ $a_R = \dfrac{v^2}{r} \Longrightarrow r = \dfrac{270^2}{8\cdot 9.8} = 929.85\;\m
 
 ### 22
 
-> If a curve with a radius of 95 m is properly banked for a car traveling 65 km/h, what must be the coefficient of static friction for a car not to skid when traveling at 95 km/h?
+> <img src="../images/Problem%205-22.png" style="zoom:90%;float:right" />If a curve with a radius of 95 m is properly banked for a car traveling 65 km/h, what must be the coefficient of static friction for a car not to skid when traveling at 95 km/h?
 
-From the circular motion chapter, we have 
-
-[^1]: See example 5-7
-
+From the circular motion chapter[^1], we have
 $$
 \theta = \arctan\left(\dfrac{v^2}{rg}\right) = \arctan\left( \dfrac{\left(\left(65 \;\mathrm{\dfrac{km}{hr}}\right) \times \left(\dfrac{1000\;\mathrm{m/km}}{3600\;\mathrm{s/hr}} \right) \right) ^2}{(95\;\mathrm{m})(9.8\;\mathrm{m/s^2})}\right) = 19.3^\circ
 $$
 
-Since $F_{fr} = \mu_s F_N$, we can solve in each direction for the normal force.  <img src="../images/Problem%205-22.png" style="zoom:90%;float:right" />
+Since $F_{fr} = \mu_s F_N$, we can solve in each direction for the normal force.  
 $$
 \sum F_y = F_N\cos\theta - mg - F_{fr}\sin\theta = 0 \Longrightarrow F_N\cos\theta - \mu_sF_N\sin\theta = mg \\
 F_N = \dfrac{mg}{\cos\theta - \mu_s\sin\theta} \\
@@ -57,7 +54,7 @@ $$
 
 ##### Part A
 
-a_R = a\sin\theta = \dfrac{v^2}{r}\Longrightarrow v= \sqrt{ar\sin\theta} = \boxed{0.930\;mathrm{m/s}}
+$a_R = a\sin\theta = \dfrac{v^2}{r}\Longrightarrow v= \sqrt{ar\sin\theta} = \boxed{0.930\;\mathrm{m/s}}$
 
 ##### Part B
 
@@ -69,17 +66,53 @@ $$
 
 > Every few hundred years most of the planets line up on the same side of the Sun. Calculate the total force on the Earth due to Venus, Jupiter, and Saturn, assuming all four planets are in a line, Fig. 5–44. The masses are $m_V = 0.815 m_E,$ $m_J = 318 m_E ,$ $m_{Sat} = 95.1 m_ E$ , and the mean distances of the four planets from the Sun are 108, 150, 778, and 1430 million km. What fraction of the Sun’s force on the Earth is this?
 
+$$
+\sum F_G = G\sum_{i=\text{Venus}}^{\text{Saturn}} \left(\dfrac{m_E^2 m_{rel(i)}}{\Delta r^2}\right) = \boxed{9.6\times 10^{17}} \\
+{F_{G}}_{sun} = \dfrac{Gm}{r^2} = 3.52\cdot10^{22} \\
+\dfrac{{F_{G}}_{sun}}{\sum F_G} = \boxed{2.7\times10^{-5}}
+$$
+
 ### 56
 
-> 
+> (a) Show that if a satellite orbits very near the surface of a planet with period T, the density ( mass per unit volume) of the planet is (b) Estimate the density of the Earth, given that a satellite near the surface orbits with a period of 85 min. Approximate the Earth as a uniform sphere.
+
+##### Part A
+
+$$
+\sqrt{\dfrac{GM}{R}} = v = \dfrac{2\pi R}{T} \Longrightarrow \dfrac{M}{R^3} = \dfrac{4\pi^2}{GT^2} \\
+\rho = \dfrac{M}{Volume} = \dfrac{M}{\dfrac43 \pi R^3} \Longrightarrow \dfrac{3}{4\pi}\cdot \dfrac{4\pi^2}{GT^2} = \boxed{\dfrac{3\pi}{GT^2}}
+$$
+
+##### Part B
+
+$$
+\rho = \dfrac{3\pi}{GT^2} =  \dfrac{3\pi}{6.674\times10^{-11}\left(85\;\mathrm{min}\cdot\dfrac{60\;\mathrm{s}}{1\;\mathrm{min}}\right)^2} = \boxed{5430\;\mathrm{kg/m^3}}
+$$
+
+
 
 ### 65
 
-> 
+> Halley’s comet orbits the Sun roughly once every 76 years. It comes very close to the surface of the Sun on its closest approach (Fig. 5–45). Estimate the greatest distance of the comet from the Sun. Is it still “in” the solar system? What planet’s orbit is nearest when it is out there?
+
+$$
+r_E / r_C = (T_E / T_C)^{2/3}\Longrightarrow r_C = r_e\left(\dfrac{T_C}{T_E}\right)^{2/3} = 150\times 10^6 \times17.9422 = \underline{2.7\cdot 10^9 = a} \\
+
+\textsf{Since the comet is very close to the Sun on its perihelion, we can assume it is 0.}\\\textsf{so we get that its distance is approximately }\boxed{5.4\times10^9\;\mathrm{km}} \textsf{ (around Pluto).}
+$$
 
 ### 72
 
-> 
+> While fishing, you get bored and start to swing a sinker weight around in a circle below you on a 0.25-m piece of fishing line. The weight makes a complete circle every 0.75 s. What is the angle that the fishing line makes with the vertical? 
+
+Because $F_T = \dfrac{mg}{\cos\theta}$ and $F_T \sin\theta = \dfrac{mg\sin\theta}{\cos\theta} = \dfrac{mv^2}{r} = \dfrac{4\pi^2 mL\sin\theta}{T^2}$. Hence, we got
+$$
+\theta = \cos^{-1} \left(\dfrac{gT^2}{4\pi^2 L}\right) = \boxed{56^\circ} 
+$$
+
+### Footnotes
+
+[^1]: See Chapter 5, Example 5-7
 
 ## Chapter 6: Work + Energy
 
@@ -250,3 +283,4 @@ $$
 ### 73
 
 > 
+
