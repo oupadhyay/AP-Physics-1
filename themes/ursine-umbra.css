@@ -93,7 +93,7 @@
 .cm-s-inner .CodeMirror-line > span::-moz-selection,
 .cm-s-inner .CodeMirror-line > span > span::selection,
 .cm-s-inner .CodeMirror-line > span > span::-moz-selection {
-  background: rgba(255, 255, 255, 0.1);
+  background: #2D3845;
 }
 
 .cm-s-inner span.cm-comment {
@@ -157,7 +157,7 @@
 }
 
 .md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
-  background: rgba(255, 255, 255, 0.1);
+  background: #2D3845;
 }
 
 .cm-s-inner .CodeMirror-matchingbracket {
@@ -222,7 +222,7 @@ html, body {
 }
 
 body {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -270,7 +270,7 @@ tt {
 }
 
 code {
-  font-size: 1em;
+  font-size: .9em;
   border: 1px solid #ffffff26;
   border-radius: .25rem;
   padding: 0 .125rem;
@@ -329,7 +329,7 @@ td, th {
 }
 
 #write h1 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin: 1rem 0;
 }
 
@@ -339,7 +339,7 @@ td, th {
 }
 
 #write h2 {
-  font-size: 1.9rem;
+  font-size: 1.4rem;
   margin: .7rem 0;
 }
 
@@ -349,7 +349,7 @@ td, th {
 }
 
 #write h3 {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   margin: .5rem 0;
 }
 
@@ -359,7 +359,7 @@ td, th {
 }
 
 #write h4 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin: .2rem 0;
 }
 
@@ -526,7 +526,7 @@ td, th {
 }
 
 #write .md-toc-item {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: var(--primary-btn-border-color);
 }
 
@@ -541,7 +541,7 @@ td, th {
 
 #write .md-footnote {
   font-family: 'Adelle', 'Times New Roman', serif;
-  font-size: .9em;
+  font-size: .8em;
   border: 1px solid #3c3c3c;
   padding: 0 4px;
   background: #111;
