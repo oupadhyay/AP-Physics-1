@@ -76,7 +76,7 @@ $\tau_{\text{net}} = mg(\ell_2 - \ell_1)\textsf{ towards the mass that is furthe
 
 ### 28
 
-> <img src="../images/Problem%208-28.png" style="zoom:75%;float:right;overflow:auto;" /> The bolts on the cylinder head of the engine require tightening to a torque of $95 \;\mathrm{m\cdot N}$. If a wrench is 28 cm long, what force perpendicular to the wrench must the mechanic exert at its end? If the six-sided bolt head is 15 mm across, estimate the force applied by each of the six points of the wrench against the bolt.
+> <img src="../images/Problem%208-28.png" style="zoom:70%;float:right;overflow:auto;" /> The bolts on the cylinder head of the engine require tightening to a torque of $95 \;\mathrm{m\cdot N}$. If a wrench is 28 cm long, what force perpendicular to the wrench must the mechanic exert at its end? If the six-sided bolt head is 15 mm across, estimate the force applied by each of the six points of the wrench against the bolt.
 
 #### Part A
 
@@ -100,7 +100,7 @@ $F = \dfrac{95}{6r} = \dfrac{95}{0.03\sqrt3} = \boxed{1830\;\mathrm{N}}$
 
 $\tau = -(1.0\;\mathrm{m})(56\;\mathrm{N})\sin 32 + (1.0\;\mathrm{m})(52\;\mathrm{N})\sin 58 = \boxed{14.42\;\mathrm{m\cdot N}}$
 
-#### Part B
+#### Part B      
 
 The force at C has a lever arm of 1.0 m, and the force at the top has a lever arm of 2.0 m. 
 
@@ -119,7 +119,7 @@ $I = \dfrac25 MR^2 = \boxed{1.81\;\mathrm{kg\cdot m^2}}$
 $\alpha = \omega / t$
 $\tau = I\alpha = \left(\dfrac12MR_0^2\right)\left(\dfrac{\omega}{t}\right) = \dfrac{31000\cdot (7.0^2)\cdot 0.68}{2(34)} \approx \boxed{15,200\;\mathrm{m\cdot N}}$
 
-- - - 
+- - -
 
 ## Homework 2: Pg. 223 # 34, 37, 38, 39, 41, 43, 46 ,48, 50, 52, 54, 56
 
@@ -254,7 +254,7 @@ $KE = \dfrac12 I\omega^2 = \dfrac12 (3.25\times 10^{-2}\;\mathrm{kg\cdot m^2}) (
 
 $KE = \dfrac12\left(Mv^2 + I\omega^2\right) = \dfrac12\left((7.25\cdot (3.10\cdot0.108)^2) + \dfrac25(7.25)(3.10)^2\right) = \boxed{14.34\;\mathrm{J}}$
 
-### 54 ==confused==
+### 54 
 
 > A rotating uniform cylindrical platform of mass 220 kg and radius 5.5 m slows down from 3.8 rev/s to rest in 16 s when the driving motor is disconnected. Estimate the power output of the motor (hp) required to maintain a steady speed of 3.8 rev/s.
 
@@ -298,13 +298,13 @@ $\omega = \omega_0t + \dfrac12 \alpha t^2 = \dfrac12 (4.6)(60\;\mathrm{s}) = \bo
 
 > A 52-kg person riding a bike puts all her weight on each pedal when climbing a hill. The pedals rotate in a circle of radius 17 cm. (a) What is the maximum torque she exerts? (b) How could she exert more torque?
 
-#### Part A
+#### Part A     
 
-$\tau = F\cdot d = 52g\;\mathrm{N}\cdot0.17\;\mathrm{m} = 86.632\;\mathrm{N\cdot m}$
+$\tau = F\cdot d = 52g\;\mathrm{N}\cdot0.17\;\mathrm{m} = 86.632\;\mathrm{N\cdot m}$    
 
 #### Part B
 
-She could get bigger pedals that rotate in a larger circle, therefore increasing the torque on the pedal.
+She could get bigger pedals that rotate in a larger circle, therefore                increasing the torque on the pedal.
 
 ### 26
 
@@ -445,4 +445,8 @@ $$
 
 >  
 
+
+
+## Homework 4: 57, 62, 71, 73
+### 57
 
