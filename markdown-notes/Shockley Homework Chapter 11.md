@@ -215,7 +215,7 @@ $$
 
 ### 59
 
-> A sound wave is traveling in warm air when it hits a layer of cold, dense air. If the sound wave hits the cold air interface at an angle of 25°, what is the angle of refraction? Assume that the cold air temperature is –15°C and the warm air temperature is +15°C. The speed of sound as a function of temperature can be approximated by $v = (331 + 0.60 T)$ m/s, where $T$ is in °C.
+> A sound wave is traveling in warm air when it hits a layer of cold, dense air. If the sound wave hits the cold air interface at an angle of 25°, what is the angle of refraction? Assume that the cold air temperature is –15°C and the warm air temperature is +15°C. The speed of sound as a function of temperature can be approximated by $v = (331 + 0.60 T)$ m/s, where $T$ is in °C. 
 
 $$
 \dfrac{\sin\theta_2}{\sin\theta_1} = \dfrac{\nu_2}{\nu_1} \Longrightarrow \sin\theta_2 = \sin\theta_1 \left(\dfrac{331+0.60T_2}{331+0.60T_1}\right) = 0.4002 \Longrightarrow \theta_2 = \boxed{23.6^\circ \text{C}}
