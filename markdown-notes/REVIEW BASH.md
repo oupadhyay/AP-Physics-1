@@ -1,13 +1,28 @@
-# Formula Sheet Ch. 6
+# Formula Sheet Ch. 6 - 8
 
 $$
 \begin{align}
-d = \dfrac{v_1^2}{2g\mu_s} \tag{min braking distance}\\
-v_1 = \sqrt{2\mu_k gd} \tag{derived from above}
+d = \dfrac{v_1^2}{2g\mu_s} \tag{min. braking distance}\\
+v_1 = \sqrt{2\mu_k gd} \tag{derived from above} \\ 
+W_{\text{nonconservative}} = \Delta\text{KE} + \Delta\text{PE} \tag{friction}\\
+W_{\text{net}} = \Delta\text{KE} = \dfrac12mv_2^2 - \dfrac12mv^2_1 \tag{work-energy principle}\\
+PE_{G} = mgy \;\;\;\;\;\;\mathbf{|}\;\;\;\;\;\; PE_{el} = \dfrac12kx^2 \tag{potential energy}\\
+v = \sqrt{2gh\left(1 - \dfrac{\mu_s}{\tan\theta}\right)} \tag{velocity of block with friction} \\
+k = m\left(\dfrac{a_{\text{max}}}{v_0}\right)^2 \tag{spring constant $a_{\text{max}}$ horizontally} \\
+F_{\text{tan}} = \dfrac{mg\sin\theta_{\text{ramp}} \cdot d_{\text{one rev}}}{2\pi r_{\text{pedal}}} \tag{cycling up a ramp}\\
 \end{align}
 $$
 
-# Formula Sheet Ch. 7 + 8
+------
+
+
+$$
+\begin{align}
+\text{A spring (mass }m\text{, constant }k\text{, displacement }x_0\text{, initial velocity }v_0\text{) :} \\
+v_{\text{max}} = \sqrt{v_0^2 + \dfrac{k}{m} x_0^2 } \tag{maximum speed} \\
+x_{\text{max}} = \sqrt{x^2_0 + \dfrac{m}{k}v^2_0} \tag{maximum stretch} \\
+\end{align}
+$$
 
 $$
 \begin{align}
@@ -88,11 +103,11 @@ $\theta = \tan^{-1} \dfrac{a_{\text{tan}}}{a_{c}} = \boxed{1.14^\circ}$
 | 23      | Using the same equation, $v_1 = \sqrt{2\mu_k gd}$<br />The mass does not affect the problem, since both the change in kinetic energy and the work done by friction are proportional to the mass. The mass cancels out of the equation. |
 | 24      | Use kinetic energy equation $KE = \dfrac12 mv^2$             |
 | 25      | **a) ** $\sum F = F_T - mg = ma = 0.16 mg \Longrightarrow F_T = 1.16mg = \boxed{3010\;\mathrm{N}}$<br />**b)** $W_{net} = F_{net}d = 0.16mgd = \boxed{7480\;\mathrm{J}}$<br />**c)** $W_{\text{cable}} = F_T d = 1.16mgd = \boxed{5.42\times10^4\;\mathrm{J}}$<br />**d)** $W_G = mgd \cos 180 = -mgd = \boxed{-4.67\times 10^4\;\mathrm{J}}$<br />**e)** $W_{net} = KE_2 - KE_1 \Rightarrow \dfrac12 mv_2^2 - \dfrac12mv_1^2$ <br />$v_2 = \sqrt{\dfrac{2W_{net}}{m}+v_1^2} = \boxed{7.51\;\mathrm{m/s}}$ |
-| 40      |                                                              |
-| 42      |                                                              |
-| 43      |                                                              |
-| 44      |                                                              |
-| 45      |                                                              |
+| 40      | $v_2 = \sqrt{2gy_1} = \boxed{25}$<br /> $v_3 = \sqrt{2g(y_1 - y_3)} = \boxed{11}$<br />$v_4 = \sqrt{2g(y_1 - y_4)} = \boxed{19}$ |
+| 42      | $W_{\text{spring}} = \Delta KE \Longrightarrow -\dfrac12 k x^2 = -\dfrac12 mv_0^2 \Longrightarrow x_{\text{max}} = v_0 \sqrt{\dfrac{m}{k}}$<br />$ma_{max} = kx_{max} \Rightarrow k = m\left(\dfrac{a_{\text{max}}}{v_0}\right)^2 = \boxed{2648\;\mathrm{N/m}}$ |
+| 43      | $Mg(x+h) = \dfrac12 kx^2$ <br />$F_{\text{spring}} = 6.0 Mg = kx \Longrightarrow Mg\left(\dfrac{6Mg}{k} + h\right) = \dfrac12 k\left(\dfrac{6Mg}{k}\right)^2 \Longrightarrow k = \boxed{\dfrac{12Mg}{k}}$ |
+| 44      | $v_{\text{max}} = \sqrt{v_0^2 + \dfrac{k}{m} x_0^2 }$<br />$x_{\text{max}} = \sqrt{x^2_0 + \dfrac{m}{k}v^2_0}$ |
+| 45      | $W = \Delta PE = mg\Delta y = \boxed{9.2\times 10 ^4\;\mathrm{J}}$<br /> Work by the force through one revolution is equal to the average tangential force times the circumference of the circular path of the pedals which is equal to the change in potential energy. <br />$W = F_{tan} \cdot 2\pi r = \Delta PE = mg \Delta y = mgd\sin\theta$<br />$F_{tan} = \dfrac{mg\sin\theta_{\text{ramp}} \cdot d_{\text{one rev}}}{2\pi r_{\text{pedal}}} = \boxed{433\;\mathrm{N}}$ |
 | 56      |                                                              |
 | 71      |                                                              |
 
