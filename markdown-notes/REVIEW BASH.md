@@ -1,3 +1,54 @@
+# Derivations
+$$
+\textbf{Period of an Orbit} \\
+\begin{align*}
+F_g &= \dfrac{mv^2}{R} \\
+\dfrac{GmM_E}{R^2} &= \dfrac{mv^2}{R} \\
+\dfrac{GM_E}{R} &= v^2 \\
+\dfrac{GM_E}{R} &= \left(\dfrac{2\pi R}{T}\right)^2 \\
+\dfrac{GM_E}{R} &= \dfrac{4\pi^2 R^2}{T^2} \\
+T^2 &= \dfrac{4\pi^2 R^3}{GM_E} \\
+T &= \boxed{\sqrt{\dfrac{4\pi^2 R^3}{GM_E}}}
+\end{align*} \\
+$$
+
+$$
+\textbf{Speed of Satellite in Orbit} \\
+\begin{align*}
+\sum F_{\text{inwards}} &= F_g = m_{\text{satellite}} \cdot a_c \\
+\dfrac{m_{\text{satellite}}\cdot v_t^2}{r} &= \dfrac{G\cdot m_E\cdot m_{\text{satellite}}}{r^2} \\
+v_t &= \boxed{\sqrt{\dfrac{G\cdot m_E}{r}} = \sqrt{\dfrac{G\cdot m_E}{r_E + \text{altitude}}}}
+\end{align*} \\
+$$
+
+$$
+\textbf{Conical Pendulum}\\
+\begin{align}
+F_{{T}_{y}} &= F_T\cos\theta = mg \\  
+F_{{T}_{in}} &= F_T\sin\theta = \dfrac{mv_t^2}{r} \\ \\
+F_T &= \dfrac{mg}{\cos\theta} \Longrightarrow F_{{T}_{in}} = \left(\dfrac{mg}{\cos\theta}\right)\sin\theta  \\
+m\left(\dfrac{\left(\dfrac{2\pi r}{T}\right)^2}{r}\right) &\Longrightarrow g\tan\theta = \dfrac{4\pi^2 r}{T^2} \\
+\sin\theta = \dfrac{r}{L} &\Longrightarrow r = L\sin\theta \\
+g\dfrac{\sin\theta}{\cos\theta} = \dfrac{4\pi^2L\sin\theta}{T^2} &\Longrightarrow T = \boxed{\sqrt{\dfrac{4\pi^2L\cos\theta}{g}}}
+\end{align}
+$$
+
+$$
+\textbf{Velocity to Go in a Circle}\\
+\begin{align}
+F_C = t - mg \Rightarrow F_C &= mg \tag{tension is zero} \\
+mg &= \dfrac{mv^2}{r} \Longrightarrow v = \boxed{\sqrt{rg}}
+\end{align}
+$$
+
+$$
+\textbf{Max Velocity with a Breaking Tension }\\
+\begin{align}
+T_{\text{max}} - mg &= \dfrac{mv^2}{r} \\
+v &= \boxed{\sqrt{\dfrac{r}{m}\left(T_{\text{max}} - mg\right)}}
+\end{align}
+$$
+
 # Formula Sheet Ch. 6 - 8
 
 $$
@@ -18,9 +69,9 @@ $$
 
 $$
 \begin{align}
-\text{A spring (mass }m\text{, constant }k\text{, displacement }x_0\text{, initial velocity }v_0\text{) :} \\
-v_{\text{max}} = \sqrt{v_0^2 + \dfrac{k}{m} x_0^2 } \tag{maximum speed} \\
-x_{\text{max}} = \sqrt{x^2_0 + \dfrac{m}{k}v^2_0} \tag{maximum stretch} \\
+\text{A spring (mass }m\text{, constant }k&\text{, displacement }x_0\text{, initial velocity }v_0\text{) :} \\
+v_{\text{max}} &= \sqrt{v_0^2 + \dfrac{k}{m} x_0^2 } \tag{maximum speed} \\
+x_{\text{max}} &= \sqrt{x^2_0 + \dfrac{m}{k}v^2_0} \tag{maximum stretch} \\
 \end{align}
 $$
 
@@ -41,10 +92,6 @@ F &= ma_{net} = m(\sqrt{a_c^2 + a_{lin}^2}) \tag{rotational + linear} \\
 
 \end{align}
 $$
-
-## Chapter 7
-
-Done on paper.
 
 ## Chapter 8 # 47, 48
 
@@ -108,6 +155,4 @@ $\theta = \tan^{-1} \dfrac{a_{\text{tan}}}{a_{c}} = \boxed{1.14^\circ}$
 | 43      | $Mg(x+h) = \dfrac12 kx^2$ <br />$F_{\text{spring}} = 6.0 Mg = kx \Longrightarrow Mg\left(\dfrac{6Mg}{k} + h\right) = \dfrac12 k\left(\dfrac{6Mg}{k}\right)^2 \Longrightarrow k = \boxed{\dfrac{12Mg}{k}}$ |
 | 44      | $v_{\text{max}} = \sqrt{v_0^2 + \dfrac{k}{m} x_0^2 }$<br />$x_{\text{max}} = \sqrt{x^2_0 + \dfrac{m}{k}v^2_0}$ |
 | 45      | $W = \Delta PE = mg\Delta y = \boxed{9.2\times 10 ^4\;\mathrm{J}}$<br /> Work by the force through one revolution is equal to the average tangential force times the circumference of the circular path of the pedals which is equal to the change in potential energy. <br />$W = F_{tan} \cdot 2\pi r = \Delta PE = mg \Delta y = mgd\sin\theta$<br />$F_{tan} = \dfrac{mg\sin\theta_{\text{ramp}} \cdot d_{\text{one rev}}}{2\pi r_{\text{pedal}}} = \boxed{433\;\mathrm{N}}$ |
-| 56      |                                                              |
-| 71      |                                                              |
 
