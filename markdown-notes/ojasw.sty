@@ -26,7 +26,8 @@
 \DeclareOption{chinese}{\ojaswhreffalse\ojaswchinesetrue} % Chinese support
 % allow href to override this one
 
-\DeclareOption{beau}{\ojaswsecthmtrue\ojaswmdthmtrue\ojaswcolorsectrue\ojaswfancytrue} % long docs
+\DeclareOption{beau}{\ojaswsecthmtrue\ojaswmdthmtrue\ojaswcolorsectrue\ojaswhdrtrue} % long docs
+\DeclareOption{cool}{\ojaswcolorsectrue\ojaswhdrtrue} % cool no mdframed
 
 \DeclareOption{fancy}{\ojaswfancytrue}
 \DeclareOption{nofancy}{\ojaswfancyfalse}
@@ -168,10 +169,12 @@
 \PassOptionsToPackage{usenames,svgnames,dvipsnames}{xcolor}
 \usepackage{xcolor}
 \ifojaswhref
+\usepackage[colorlinks=true]{hyperref}
 \definecolor{RoyalBlue}{rgb}{0.25, 0.41, 0.88}
-\hypersetup{urlcolor=RubineRed,linkcolor=RoyalBlue,citecolor=ForestGreen}
-\fi
-\usepackage[nameinlink]{cleveref}
+\definecolor{RawSienna}{rgb}{0.91, 0.45, 0.32}
+\definecolor{Cobalt}{rgb}{0.0, 0.28, 0.67}
+\definecolor{DarkCerulean}{rgb}{0.0, 0.2, 0.4}
+\hypersetup{urlcolor=RawSienna,linkcolor=Cobalt,citecolor=ForestGreen}
 \fi
 
 %%fakesection New Theorem Styles
@@ -186,9 +189,6 @@
 \definecolor{ForestGreen}{rgb}{0.0, 0.27, 0.13}
 \definecolor{MidnightBlue}{rgb}{0.1, 0,0.44}
 \definecolor{TealBlue}{rgb}{0.21, 0.46, 0.53}
-\definecolor{Cobalt}{rgb}{0.0, 0.28, 0.67}
-\definecolor{RawSienna}{rgb}{0.8, 0.0, 0.0}
-\definecolor{Amaranth}{rgb}{0.9, 0.17, 0.31}
 \mdfdefinestyle{mdbluebox}{%
 	roundcorner = 10pt,
 	linewidth=1pt,
@@ -207,18 +207,23 @@ postheadspace={0pt}
 ]{thmbluebox}
 
 \mdfdefinestyle{mdredbox}{%
-	skipabove=8pt,
-	linewidth=2pt,
-	rightline=false,
-	leftline=true,
-	topline=false,
-	bottomline=false,
-	backgroundcolor=Cobalt!5,
-	linecolor=Cobalt,
+	linewidth=0.5pt,
+	skipabove=12pt,
+	frametitleaboveskip=5pt,
+	frametitlebelowskip=0pt,
+	skipbelow=2pt,
+	frametitlefont=\bfseries,
+	innertopmargin=4pt,
+	innerbottommargin=8pt,
+	nobreak=true,
+	backgroundcolor=Salmon!5,
+	linecolor=RawSienna,
 }
 \declaretheoremstyle[
-headfont=\bfseries\color{Cobalt},
-mdframed={style=mdredbox}
+headfont=\bfseries\color{RawSienna},
+mdframed={style=mdredbox},
+headpunct={\\[3pt]},
+postheadspace={0pt},
 ]{thmredbox}
 
 \mdfdefinestyle{mdgreenbox}{%
@@ -229,11 +234,11 @@ mdframed={style=mdredbox}
 	topline=false,
 	bottomline=false,
 	linecolor=ForestGreen,
-	backgroundcolor=ForestGreen!7,
+	backgroundcolor=ForestGreen!5,
 }
 \declaretheoremstyle[
 headfont=\bfseries\sffamily\color{ForestGreen!70!black},
-bodyfont=\normalfont\small,
+bodyfont=\normalfont,
 name = \thistheoremname,
 spaceabove=2pt,
 spacebelow=1pt,
@@ -243,22 +248,21 @@ headpunct={ --- },
 
 \mdfdefinestyle{mdblackbox}{%
 	skipabove=8pt,
-	linewidth=2pt,
+	linewidth=3pt,
 	rightline=false,
 	leftline=true,
 	topline=false,
 	bottomline=false,
-	linecolor=Amaranth,
-	backgroundcolor=Amaranth!6!,
+	linecolor=black,
+	backgroundcolor=RedViolet!5!gray!5,
 }
 \declaretheoremstyle[
-headfont=\bfseries\color{Amaranth!70!black},
+headfont=\bfseries,
 bodyfont=\normalfont\small,
 spaceabove=0pt,
 spacebelow=0pt,
-mdframed={style=mdblackbox},
+mdframed={style=mdblackbox}
 ]{thmblackbox}
-
 
 \newcommand{\listhack}{$\empty$\vspace{-2em}}
 \fi
@@ -278,7 +282,7 @@ style=thmbluebox,name=Theorem]{theorem}
 \declaretheorem[style=thmbluebox,name=Lemma,sibling=theorem]{lemma}
 \declaretheorem[style=thmblackbox,name=Symbols,sibling=theorem]{proposition}
 \declaretheorem[style=thmgreenbox,name=Important,sibling=theorem]{corollary}
-\declaretheorem[style=thmbluebox,name=Characteristics,numbered=no]{theorem*}
+\declaretheorem[style=thmbluebox,name=Theorem,numbered=no]{theorem*}
 \declaretheorem[style=thmbluebox,name=Lemma,numbered=no]{lemma*}
 \declaretheorem[style=thmblackbox,name=Symbols,numbered=no]{proposition*}
 \declaretheorem[style=thmgreenbox,name=Abstract,numbered=no]{corollary*}
@@ -368,14 +372,15 @@ style=thmbluebox,name=Theorem]{theorem}
 				\scalebox{1.5}{\chapappifchapterprefix{\nobreakspace}}%
 				\scalebox{2.718}{\color{purple}\thechapter}\enskip}}
 	}
+	\definecolor{bum}{cmyk}{1,.60,0,.40}
 	\renewcommand*{\sectionformat}%
 	{\color{RoyalBlue}\S\thesection\enskip}
 	\renewcommand*{\subsectionformat}%
-	{\color{RoyalBlue}\S\thesubsection\enskip}
+	{\color{purple}\S\thesubsection\enskip}
 	\renewcommand*{\subsubsectionformat}%
-	{\color{RoyalBlue}\S\thesubsubsection\enskip}
+	{\color{purple}\S\thesubsubsection\enskip}
 	\KOMAoptions{numbers=noenddot}
-	\usepackage[tocindentauto]{tocstyle}
+	\usepackage[]{tocstyle}
 	\usetocstyle{KOMAlike}
 }
 \fi
@@ -460,7 +465,7 @@ style=thmbluebox,name=Theorem]{theorem}
 	\setlength{\headwidth}{6.5in}
 	\setlength{\textheight}{8.75in}
 	\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
-	\setlength{\footskip}{0.1in}
+	\setlength{\footskip}{0.3in}
 	\ifojaswhdr
 	\renewcommand{\headrulewidth}{0.5pt}
 	\renewcommand{\footrulewidth}{0.0pt}
