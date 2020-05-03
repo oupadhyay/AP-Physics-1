@@ -51,8 +51,29 @@ $$
 \textbf{Velocity to Go in a Circle}\\
 \begin{align}
 F_C = t - mg \Rightarrow F_C &= mg \tag{tension is zero} \\
-mg &= \dfrac{mv^2}{r} \Longrightarrow v = \boxed{\sqrt{rg}}
+\dfrac{mv^2}{r} &= mg \Longrightarrow v = \boxed{\sqrt{rg}}
 \end{align}
+$$
+
+$$
+\begin{align*}
+\textbf{Minimum $\mathbf{\mu_s}$}&\textbf{ for Flat Circular Track} \\
+\dfrac{v^2}{r} &= \dfrac{\sum F_r}{m} \tag{radial direction}\\
+\dfrac{v^2}{r} &= \dfrac{\mu mg}{m} \\
+\mu &= \boxed{\dfrac{v^2}{rg}}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\textbf{Speed to Remain at Sa}&\textbf{me Height on Banked Curve} \\
+a_y =0 = \dfrac{\sum F_y}{m} &= \dfrac{F_N\cos\theta-mg}{m} \\
+F_N &= \dfrac{mg}{\cos\theta} \tag{m $\neq$ 0} \\
+a_x = \dfrac{v^2}{r} = \dfrac{\sum F_x}{m} &= \dfrac{F_N\sin\theta}{m} \\
+\dfrac{v^2}{r} &= \dfrac{mg\sin\theta}{m\cos\theta} \\
+v^2 &= \dfrac{L\cos\theta \cdot mg \sin\theta}{m\cos\theta} \tag{$r = L\cos\theta$} \\
+v &= \boxed{\sqrt{gL \sin\theta}} \tag{L = diagonal length}
+\end{align*}
 $$
 
 $$
