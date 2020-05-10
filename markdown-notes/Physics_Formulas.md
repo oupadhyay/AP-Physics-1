@@ -30,7 +30,7 @@ $$
 F_{{T}_{y}} &= F_T\cos\theta = mg \\  
 F_{{T}_{in}} &= F_T\sin\theta = \dfrac{mv_t^2}{r} \\ \\
 F_T &= \dfrac{mg}{\cos\theta} \Longrightarrow F_{{T}_{in}} = \left(\dfrac{mg}{\cos\theta}\right)\sin\theta  \\
-m\left(\dfrac{\left(\dfrac{2\pi r}{T}\right)^2}{r}\right) &\Longrightarrow g\tan\theta = \dfrac{4\pi^2 r}{T^2} \\
+m\left(\dfrac{2\pi r}{T^2\cdot r}\right) &\Longrightarrow g\tan\theta = \dfrac{4\pi^2 r}{T^2} \\
 \sin\theta = \dfrac{r}{L} &\Longrightarrow r = L\sin\theta \\
 g\dfrac{\sin\theta}{\cos\theta} = \dfrac{4\pi^2L\sin\theta}{T^2} &\Longrightarrow T = \boxed{\sqrt{\dfrac{4\pi^2L\cos\theta}{g}}}
 \end{align}
@@ -66,7 +66,16 @@ $$
 
 $$
 \begin{align*}
-\textbf{Speed to Remain at Sa}&\textbf{me Height on Banked Curve} \\
+\textbf{Angle of Ramp}&\textbf{ with No Friction} \\
+F_N\sin\theta = \dfrac{mv^2}{r} &\Longrightarrow \sin\theta = \dfrac{mv^2}{F_N\cdot r} \tag{general equation}\\
+F_N\cos\theta = mg &\Longrightarrow F_N = \dfrac{mg}{\cos\theta} \tag{solve for $F_N$} \\
+\dfrac{\sin\theta}{\cos\theta} = \dfrac{mv^2}{mg \cdot r} &\Longrightarrow \boxed{\theta = \tan^{-1} \left(\dfrac{v^2}{rg}\right)}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\textbf{Speed to Remain at }&\textbf{ Height on Banked Curve} \\
 a_y =0 = \dfrac{\sum F_y}{m} &= \dfrac{F_N\cos\theta-mg}{m} \\
 F_N &= \dfrac{mg}{\cos\theta} \tag{m $\neq$ 0} \\
 a_x = \dfrac{v^2}{r} = \dfrac{\sum F_x}{m} &= \dfrac{F_N\sin\theta}{m} \\
@@ -105,7 +114,7 @@ $$
 \begin{align}
 d &= \dfrac{v_0^2}{2g\mu_s} \tag{min. braking distance}\\
 v_0 &= \sqrt{2\mu_k gd} \tag{derived from above} \\ \\
-\end{align} \\
+\end{align}
 $$
 
 $$
@@ -128,8 +137,6 @@ F_{\text{tan}} = \dfrac{mg\sin\theta_{\text{ramp}} \cdot d_{\text{one rev}}}{2\p
 \end{align}
 $$
 
-------
-
 
 $$
 \begin{align}
@@ -138,8 +145,6 @@ v_{\text{max}} &= \sqrt{v_0^2 + \dfrac{k}{m} x_0^2 } \tag{maximum speed} \\
 x_{\text{max}} &= \sqrt{x^2_0 + \dfrac{m}{k}v^2_0} \tag{maximum stretch} \\
 \end{align}
 $$
-
-------
 
 $$
 \textbf{Momentum and SHO} \\
@@ -151,6 +156,7 @@ v_B' &=\left(\dfrac{2m_A}{m_A + m_B}\right) v_A \\
 \tag{height - level ground}
 h_A &= \dfrac{v_A^2}{2g}\\
 KE &= \dfrac{p^2}{2m} = \dfrac12 mv^2 \tag{KE formulas}\\
+\text{Impulse} &= m\Delta v = \Delta p = F \Delta t = \int F dt\tag{impulse}\\
 KE\;(J) &= F\Delta t = \int F\;dt =\Delta p \tag{interpretations}\\
 x_{CM} &= \dfrac{m_A x_A + m_B x_B + \cdots}{m_A + m_B + \cdots} \tag{center of mass}\\
 F_{\text{net}} &= Ma_{CM} \\
@@ -166,7 +172,7 @@ $$
 \omega &= \omega_0 + \alpha t \tag{constant $\alpha$, 1} \\
 \theta &= \omega_0t + \dfrac12\alpha t^2 \tag{constant $\alpha$, 2}\\
 \omega^2 &= \omega_0^2 + 2\alpha \theta \tag{constant $\alpha$, 3}\\
-\overline{\omega} &= \dfrac{\omega + \omega_0}{2} \tag{constant $\alpha$, 4} \\\\
+\overline{\omega} &= \dfrac{\omega + \omega_0}{2} \tag{constant $\alpha$, 4} \\
 \textbf{}& \textbf{Torques} \\
 |\tau| &= rF\sin\theta \\
 \tau = mr^2 \alpha &\Rightarrow \text{Inertia} = \sum mr^2 \\
@@ -177,12 +183,10 @@ L &= I\omega \\
 \end{align}
 $$
 
-```json
-"}& \text{"
+```python
 for aligningText(align_environment) {
-    state: "very useful"
+    use: "}& \text{"
 } else {
-    state: "do not use"
+    use: False
 }
 ```
-
