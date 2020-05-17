@@ -1,7 +1,6 @@
 # Formula Sheet
 
 ## Derivations
-
 $$
 \textbf{Period of an Orbit} \\
 \begin{align*}
@@ -48,10 +47,10 @@ $$
 
 
 $$
-\textbf{Velocity to Go in a Circle}\\
+\textbf{Velocity to Go in a Vertical/Horizontal Loop}\\
 \begin{align}
-F_C = t - mg \Rightarrow F_C &= mg \tag{tension is zero} \\
-\dfrac{mv^2}{r} &= mg \Longrightarrow v = \boxed{\sqrt{rg}}
+F_C = \{t\}/\{F_N\} - mg &\Longrightarrow F_C = mg \tag{tension/normal force is zero} \\
+\dfrac{mv^2}{r} = mg &\Longrightarrow v = \boxed{\sqrt{rg}}
 \end{align}
 $$
 
@@ -75,7 +74,7 @@ $$
 
 $$
 \begin{align*}
-\textbf{Speed to Remain at }&\textbf{ Height on Banked Curve} \\
+\textbf{Speed to Remain }&\textbf{on Banked Curve} \\
 a_y =0 = \dfrac{\sum F_y}{m} &= \dfrac{F_N\cos\theta-mg}{m} \\
 F_N &= \dfrac{mg}{\cos\theta} \tag{m $\neq$ 0} \\
 a_x = \dfrac{v^2}{r} = \dfrac{\sum F_x}{m} &= \dfrac{F_N\sin\theta}{m} \\
@@ -87,10 +86,8 @@ $$
 
 $$
 \textbf{Max Velocity with a Breaking Tension }\\
-\begin{align}
-T_{\text{max}} - mg &= \dfrac{mv^2}{r} \\
-v &= \boxed{\sqrt{\dfrac{r}{m}\left(T_{\text{max}} - mg\right)}}
-\end{align}
+T_{\text{max}} - mg = \dfrac{mv^2}{r} \\
+v = \boxed{\sqrt{\dfrac{r}{m}\left(T_{\text{max}} - mg\right)}}
 $$
 
 $$
@@ -103,11 +100,25 @@ a/2 = \text{major axis with no orbital velocity}\\ \\
 \dfrac{(2t)^2}{T_E^2} &= \dfrac{\left(\dfrac{a}{2}\right)^3}{a^3} \\
 t^2 &= \dfrac{1}{2}\dfrac{T_E^2}{16} \\
 t &= \boxed{\dfrac{T_E}{4\sqrt2}} \\\\
-\text{for Earth: }t &= \dfrac{365.26}{4\sqrt2} = 64.57\;\mathrm{days}
+\text{for Earth: }t &= \dfrac{365.26}{4\sqrt2} = \underline{\underline{64.57\;\mathrm{days}}}
 \end{align}
 $$
 
-## Formula Sheet Ch. 6 - 8
+$$
+\textbf{Geosynchronous Orbit} \\
+\begin{align}
+F_g &= \dfrac{GmM}{(R+h)^2} \tag{law of gravitation}\\
+F_c &= \dfrac{mv^2}{R+h} \tag{centripetal force}\\
+v &= \omega(R+h) = \dfrac{2\pi}{T}(R+h) \tag{tangential speed}\\
+\frac{GmM}{\left( R+h \right)^{2}} &= \frac{4\pi^{2}m\left( R+h\right)}{T^{2}} \tag{substitution}\\
+G\frac{ MT^{2}}{4\pi^{2}} &= \left( R+h \right)^{3} \tag{isolation}\\
+h &= \boxed{\left(\sqrt[3]{\frac{GMT^2}{4\pi^2}}\right) - R} \tag{answer}
+\end{align}
+$$
+
+
+
+## Formula Sheet
 
 $$
 \textbf{One Object} \\
@@ -131,8 +142,8 @@ $$
 W_{\text{nonconservative}} = \Delta\text{KE} + \Delta\text{PE} \tag{friction}\\
 W_{\text{net}} = \Delta\text{KE} = \dfrac12mv_2^2 - \dfrac12mv^2_1 \tag{work-energy principle}\\
 PE_{G} = mgy \;\;\;\;\;\;\mathbf{|}\;\;\;\;\;\; PE_{el} = \dfrac12kx^2 \tag{potential energy}\\\\
-v = \sqrt{2gh\left(1 - \dfrac{\mu_s}{\tan\theta}\right)} \tag{velocity of block with friction from ramp} \\
-k = m\left(\dfrac{a_{\text{max}}}{v_0}\right)^2 \tag{spring constant with $a_{\text{max}}$ horizontally} \\
+v = \sqrt{2gh\left(1 - \dfrac{\mu_s}{\tan\theta}\right)} \tag{velocity of block w/friction on ramp} \\
+k = m\left(\dfrac{a_{\text{max}}}{v_0}\right)^2 \tag{spring constant w/$a_{\text{max}}$ horizontally} \\
 F_{\text{tan}} = \dfrac{mg\sin\theta_{\text{ramp}} \cdot d_{\text{one rev}}}{2\pi r_{\text{pedal}}} \tag{cycling up a ramp}\\
 \end{align}
 $$
@@ -183,10 +194,14 @@ L &= I\omega \\
 \end{align}
 $$
 
-```python
-for aligningText(align_environment) {
-    use: "}& \text{"
-} else {
-    use: False
+```java
+while college.admit_status() == False {
+	for tests in ap_test {
+		if (ap_test.score() == 5) {
+			commit: "../body/processes/breathe.exe"
+		} else {
+			commit: "../body/processes/death.exe"
+		}
+	}
 }
 ```
